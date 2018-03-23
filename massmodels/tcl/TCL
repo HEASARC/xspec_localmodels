@@ -1,0 +1,75 @@
+A brief (incomplete) guide to the TCL procedures.
+
+mixcommon.tcl - most of the code
+clmass.tcl - routines specific to clmass model
+monomoass.tcl - routines specific to monomass
+nfwmass.tcl - routines specific to nfwmass
+phyconst.tcl - provides physical constants (reads Basic_Constants)
+
+TCL procedures:
+
+massmod_start {{rinner 0} {a 0} {beta 0.7} {sw 0}}
+  Eessential set up for the mass models (ties thermal model
+  temperatures to mass model; freezes unused shell parameters; sets 
+  beta model parameters of the mixing model from its arguments).
+
+shellBounds {}
+  Makes a list of the shell boundaries sorted in radial order.
+  List entries have the form {rin rout datagroup}.
+
+cospars {z {cosfile stdcosmo.pars}}
+  Runs external program cosinfo for redshift $z (using the specified
+  set of cosmological parameters) to get angular diameter distance and
+  the critical density (replace this to use your own cosmology
+  routines). 
+
+phyScale {dang radialScale}
+  Uses angular diameter distance and model length unit (arcsec) to
+  compute the units of length, density and mass used by the model.
+
+setscales {radialScale rbName rmName mmName rcmName {redshift -1}}
+  Gets the list of shell boundaries (shellBounds).  Gets angular
+  diameter distance, critical density (cospars) and model units
+  (phyScale).  If the specified redshift is negative, reads it from
+  the thermal model parameters (getz).
+
+mixNFWstartPars {rbName kTval conc rUnit rhoCritModel} 
+  Uses a model dependent routine to estimate mixing model parameters
+  from temperature and NFW concentration parameter, then sets
+  temperatures and the potential parameters.  Note that it sets hard
+  lower and upper limits for the latter (not good if you the guess is
+  way off). 
+
+findParName {parName unitName {compNum 0}}
+  Finds a parameter using its name and units.
+
+breakLinks {{pars {{kT keV} {norm ""}}}}
+  Unties parameter links between data groups for nominated parameters.
+  E.g., to untie all the abundances
+  breakLinks {{Abundanc ""}}
+
+parsave
+  Saves values of all variable parameters to be used by restore.
+
+restore {savName}
+  Sets parameters to saved values.
+
+getz {}
+  Gets redshift from a thermal model component.
+
+denPars {rbName}
+  Lists active density parameters for clmass and monomass.
+
+NFWguess {kTval conc rUnit rhoCritModel}
+  Estimates NFW parameters (model units) from temperature and
+  concentration.
+
+massOfR {rcut rbName}
+  Model mass within radius $rcut.
+
+MassConf {quantFixed fixed rbName {delStat 1.0} {grow 1.03} {epsStat 0.01}}
+  Compute confidence range for the mass at fixed radius or density
+  (for clmass and monomass).  Needs to start from the best fit.  Treat
+  the results with caution.  You are on your own for nfwmass (but
+  masses only depend on the 2 NFW parameters, so make a confidence
+  ellipse for them and use nfwprops to find the extremes).

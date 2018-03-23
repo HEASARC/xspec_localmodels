@@ -1,0 +1,5 @@
+# LocalModels
+
+Extra XSPEC local models.  These additional models are not included in the release.
+
+To use any of these models in XSPEC, place the model contents in a directory, start up XSPEC, and use the <a href="http://heasarc.gsfc.nasa.gov/docs/xanadu/xspec/manual/XSinitpackage.html">initpackage</a> command to build the model. This need only be done once.  Then use the <a href="http://heasarc.gsfc.nasa.gov/docs/xanadu/xspec/manual/XSlmod.html">lmod</a> command to load in the model. This must be done once in each XSPEC run.

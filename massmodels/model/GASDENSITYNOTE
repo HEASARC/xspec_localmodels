@@ -1,0 +1,20 @@
+Setting chatter to 20 and computing the model (eg running fit) causes
+it to dump "squared densities" and "emission measures."  The squared
+densities apply to the inner edge of each shell and they are in units
+of the squared density at the inner edge of the innermost shell.
+
+The "Emission measures" are 
+$$ E_{i,j} = \int_{V_{i,j}} {n_e / n_{e,0}}^2 dV / (4 \pi), $$
+where $V_{ij}$ is the intersection between the $i$th shell and the
+$j$th cylinder, and $n_{e,0}$ is the density at the inner edge of the
+innermost shell.  Distances in these integrals are in units of pixels
+(whatever value is used in the XFLT keywords).  Beware of the factor
+of $4 \pi$ that is omitted from the emission measure integrals (see
+Atmosphere::tpinteg).
+
+The one free norm, $N$, for the thermal models is the XSPEC norm for the
+whole of the innermost volume, $V_{0,0}$.  To compute the density at
+the inner edge of the innermost shell, note that
+$$ N = n_{e,0} n_{H,0} 10^{-14} s^3 d_A E_{0,0} (1 + z)^{-2}, $$
+where $s$ is the pixel size in radians, $d_A$ is the angular diameter
+distance and $z$ is the redshift.

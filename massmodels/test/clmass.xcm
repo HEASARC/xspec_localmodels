@@ -1,0 +1,47 @@
+# Example of loading and using clmass model
+log clmass.log
+data 1:1 work1.pha 
+data 2:2 work2.pha 
+data 3:3 work3.pha 
+data 4:4 work4.pha 
+data 5:5 work5.pha 
+data 6:6 work6.pha 
+data 7:7 work7.pha 
+data 8:8 work8.pha 
+data 9:9 work9.pha 
+data 10:10 work10.pha 
+ignore bad
+ignore **: **-0.5 **: 7.5-**
+# Path to distributed code
+set clmroot ..
+lmod clmass ${clmroot}/model
+model clmass (wabs * mekal)
+/*
+newpar 37 0.0304
+freeze 37
+newpar 41 0.077947
+thaw 40
+newpar 43 1e-3 1e-5
+# Lazy - better to set deltas explicitly when
+# some densities want to go to zero.
+xset delta 0.01
+source ${clmroot}/tcl/mixcommon.tcl
+source ${clmroot}/tcl/phyconst.tcl
+source ${clmroot}/tcl/clmass.tcl
+# Link thermal model temperatures to mass model, freeze unused
+# parameters, set rinner and the beta model parameters
+massmod_start 0 0 1.1 1
+# Use redshift from thermal models to compute physical scales
+# (calls external support routine cosinfo)
+setscales 1.0 rbounds runit Munit rhocritmodel
+# Set sane starting parameters for the mass model
+mixNFWstartPars rbounds 7 6 $runit $rhocritmodel
+# Not recommended
+query yes
+fit
+# Untie all abundances
+breakLinks {{Abundanc ""}}
+# ... but keep the outer pair linked for this case
+new 427 =384
+# Does not quite get to the best fit, but reasonably close
+fit

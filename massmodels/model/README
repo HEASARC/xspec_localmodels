@@ -1,0 +1,17 @@
+cycle.pl does the clean up, recompile cycle for the local model,
+adding GSL to the final link.  Any argument causes it to do the full
+build cycle.  Otherwise, it just does the hmake and link fix.
+
+Model no longer requires the same number of spectra in every data
+group.
+
+Fixed a serious bug with the handling of data groups that are not in
+outward radial order.
+
+Fixed a non-bug by restoring the use of size_t in place of int's.
+
+Allow beta model parameters to be fitted.
+
+The gravitational potentials are abstracted into derived classes in
+the files Potential.cxx and Potential.h, making it relatively easy
+to add new models for the potential.

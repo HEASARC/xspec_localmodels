@@ -1,0 +1,35 @@
+# Illustrates the effects of bad model parameters
+# - for which the model produces a spectrum full of NaN's
+log clmass_bad.log
+data 1:1 work1.pha 
+data 2:2 work2.pha 
+data 3:3 work3.pha 
+data 4:4 work4.pha 
+data 5:5 work5.pha 
+data 6:6 work6.pha 
+data 7:7 work7.pha 
+data 8:8 work8.pha 
+data 9:9 work9.pha 
+data 10:10 work10.pha 
+ignore bad
+ignore **: **-0.5 **: 7.5-**
+# Path to distributed code
+set clmroot ..
+lmod clmass ${clmroot}/model
+model clmass (wabs * mekal)
+/*
+newpar 37 0.0304
+freeze 37
+newpar 41 0.077947
+thaw 40
+newpar 43 1e-3 1e-5
+xset delta 0.01
+source ${clmroot}/tcl/mixcommon.tcl
+source ${clmroot}/tcl/clmass.tcl
+massmod_start 0 0 1.1 1
+# Poorly chosen model parameters cause the numerical integration in
+# the mixing model to fail.  Emits the message
+# "Convergence problem in Hydrostatic::Atmosphere::mixWeight.
+#  May be due to bad model parameters."
+# and fills the model spectrum with NaN's.
+new 28 100

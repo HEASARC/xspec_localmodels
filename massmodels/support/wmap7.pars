@@ -1,0 +1,4 @@
+h = 0.710
+T_CMB = 2.728
+Omega_matter = 0.266  (Omega_DM + Omega_b)
+Omega_curvature = 0.0

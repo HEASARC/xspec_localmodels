@@ -1,0 +1,29 @@
+A little about adding new models:
+
+The files containing details of the potentials are Potential.cxx and
+Potential.h.  To make your own model potential, follow these examples
+to derive a new class from Atmosphere and a corresponding class from
+ClusterMassModel (the latter part is trivial).  Your derived class
+must provide a constructor and instances of the two pure virtual
+functions, dphi (the potential difference) and pdump (dumps the model
+parameters) in Atmosphere::Atmosphere (see Atmosphere.h).  You also
+need to provide a C interface (see hydrostatic.cxx,
+monohydrostatic.cxx and nfwhydrostatic.cxx)
+
+The main task of the constructor is to extract and save a copy of the
+model parameters it needs for the potential from the parameter vector
+(parameters for the potential follow the 4 fixed parameters and the
+temperatures, and the other code knows nothing about them).  The
+arguments to dphi are the shell number, i, the inner radius of the
+shell, r_i, and the radius, r, at which the potential is required.
+This function must return the potential difference between r and r_i.
+There are comments elsewhere about units.
+
+By the way, the code here makes no assumptions about the total number
+of parameters, so that the limit on the maximum number of shells is
+defined solely by the model.dat file (however, unused shells are a
+distraction when fitting).  If you need more shells, just add them
+there and rebuild the model.  This is achieved by using the size of
+the parameter vector to work out where to find parameters.  Of course,
+the layout of the model.dat file must match any assumptions made by
+the model routines (see the examples).

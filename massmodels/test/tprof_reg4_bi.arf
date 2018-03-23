@@ -1,0 +1,443 @@
+SIMPLE  =                    T / file does conform to FITS standard             BITPIX  =                  -32 / number of bits per data pixel                  NAXIS   =                    0 / number of data axes                            EXTEND  =                    T / FITS dataset may contain extensions            COMMENT   FITS (Flexible Image Transport System) format is defined in 'AstronomyCOMMENT   and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H DATE    = '2005-02-01T20:12:42' / file creation date (YYYY-MM-DDThh:mm:ss UT)   CREATOR = 'addarf 1.2.6'       / s/w task which wrote this dataset              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional binary table                     NAXIS1  =                   12 / width of table in bytes                        NAXIS2  =                 2341 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group (required keyword)              TFIELDS =                    3 / number of fields in each row                   TTYPE1  = 'ENERG_LO'           / label for field   1                            TFORM1  = 'E       '           / data format of field: 4-byte REAL              TUNIT1  = 'keV     '           / physical unit of field                         TTYPE2  = 'ENERG_HI'           / label for field   2                            TFORM2  = 'E       '           / data format of field: 4-byte REAL              TUNIT2  = 'keV     '           / physical unit of field                         TTYPE3  = 'SPECRESP'           / label for field   3                            TFORM3  = 'E       '           / data format of field: 4-byte REAL              TUNIT3  = 'cm**2   '           / physical unit of field                         EXTNAME = 'SPECRESP'           / name of this binary table extension            HDUCLASS= 'OGIP    '           / format conforms to OGIP standard               HDUCLAS1= 'RESPONSE'           / dataset relates to spectral response           HDUCLAS2= 'SPECRESP'           / dataset contains spectral response             HDUVERS = '1.1.0   '           / Version of format (OGIP memo CAL/GEN/92-002a)  HDUDOC  = 'OGIP memos CAL/GEN/92-002 & 92-002a' / Documents describing the formaHDUVERS1= '1.0.0   '           / Obsolete - included for backwards compatibilityHDUVERS2= '1.1.0   '           / Obsolete - included for backwards compatibilityTELESCOP= 'CHANDRA '           / mission/satellite name                         INSTRUME= 'ACIS    '           / instrument/detector name                       DETNAM  = 'NONE    '           / specific detector name in use                  FILTER  = 'NONE    '           / filter in use                                  ARFVERSN= '1992a   '           / Obsolete - included for backwards compatibilityPHAFILE = 'UNKNOWN '           / PHA file for which this ARF created            HISTORY This file is made with the ftool addarf 1.2.6                           HISTORY  FITS ARF extension written by WTARF1 1.1.0                             COMMENT File 1 : gov0.arf                                                       COMMENT Weight:    0.8447                                                       COMMENT TELESCOP: CHANDRA                                                       COMMENT INSTRUME: ACIS                                                          COMMENT File 2 : gov1.arf                                                       COMMENT Weight:    0.1553                                                       COMMENT TELESCOP: CHANDRA                                                       COMMENT INSTRUME: ACIS                                                          CREATOR = 'addarf 1.2.6'       / s/w task which wrote this dataset              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             >™™š>œ(ö@ø!Â>œ(ö>ž¸RAJqê>ž¸R>¡G®Aª8’>¡G®>£×
+AÓêô>£×
+>¦ffAöhœ>¦ff>¨õÃB	f]>¨õÃ>«…B
+>«…>®{B.Q'>®{>°£×B?Ý>°£×>³33BPÑª>³33>µÂB_z>µÂ>¸QìBmá0>¸Qì>ºáHBy>ºáH>½p¤Bƒ¿™>½p¤>À  BŠùƒ>À  >Â\B“ª³>Â\>Å¸BœŒ>Å¸>Ç®B¦j>Ç®>Ê=qB¯/m>Ê=q>ÌÌÍBº	Ñ>ÌÌÍ>Ï\)B¾Tö>Ï\)>Ñë…B®®v>Ñë…>ÔzáB¿<>Ôzá>×
+=BÕKä>×
+=>Ù™šBäåm>Ù™š>Ü(öBô  >Ü(ö>Þ¸RC Þ{>Þ¸R>áG®CÓ;>áG®>ã×
+C6Ò>ã×
+>æffCÎ¯>æff>èõÃC¬3>èõÃ>ë…CÊ&>ë…>î{C%ÈÌ>î{>ð£×C+JA>ð£×>ó33C0¸>ó33>õÂC6×>õÂ>øQìC=i÷>øQì>úáHCC_Õ>úáH>ýp¤CHÃ >ýp¤?   CPØ"?   ?G®CVK¯?G®?\C\“p?\?×
+Cc%?×
+?¸Cj$Œ?¸?ffCqÊ?ff?®CwH´?®?õÃCk–?õÃ?
+=qC ?r?
+=q?…C#ò²?…?ÌÍC?l?ÌÍ?{CFëˆ?{?\)CIá?\)?£×CP+ˆ?£×?ë…C[ÑY?ë…?33Cf?33?záCm=¾?zá?ÂCrÛï?Â?
+=Cy´>?
+=?QìC,`?Qì?™šC‚I?™š?áHC…p?áH?(öC‡©.?(ö?p¤CŠ5¡?p¤?¸RCŒÕ%?¸R?   C±5?   ?!G®C’zŸ?!G®?"\C•O?"\?#×
+C˜ ?#×
+?%¸CšÃ]?%¸?&ffCm˜?&ff?'®C _–?'®?(õÃC¢²(?(õÃ?*=qC¥,¾?*=q?+…C§æ0?+…?,ÌÍCªuÀ?,ÌÍ?.{C¬éB?.{?/\)C¯+&?/\)?0£×C§k\?0£×?1ë…C¤Àø?1ë…?333C§?ã?333?4záCªÄ?4zá?5ÂC«ýv?5Â?7
+=C¯v?7
+=?8QìC²Žs?8Qì?9™šCµ™¨?9™š?:áHC¸2*?:áH?<(öCºÈº?<(ö?=p¤C½^?=p¤?>¸RC¿ñ?>¸R?@  CÂ„·?@  ?AG®CÅŠ?AG®?B\CÇ´è?B\?C×
+CÊ4¤?C×
+?E¸CÌ–d?E¸?FffCÎó ?Fff?G®CÑAò?G®?HõÃCÓŠx?HõÃ?J=qCÕÐK?J=q?K…CØÉ?K…?LÌÍCÚUY?LÌÍ?N{CÜ‡°?N{?O\)CÞ²Ô?O\)?P£×CàÖz?P£×?Që…CâÖÄ?Që…?S33CäÎU?S33?TzáCæÃ´?Tzá?UÂCè²\?UÂ?W
+=Cê ¼?W
+=?XQìCìÛf?XQì?Y™šCîµŸ?Y™š?ZáHCð‘Ý?ZáH?\(öCò|ð?\(ö?]p¤Côdb?]p¤?^¸RCöoî?^¸R?`  Cø£?`  ?aG®CúÅ?aG®?b\Cü€Ë?b\?c×
+Cþ¯?c×
+?e¸Cÿ„?e¸?fffD …Å?fff?g®DJG?g®?hõÃDê?hõÃ?j=qDÒì?j=q?k…D–V?k…?lÌÍDSb?lÌÍ?n{Dö?n{?o\)DÊ=?o\)?p£×Dƒ¨?p£×?që…D<o?që…?s33Dôê?s33?tzáD¬Æ?tzá?uÂD	dI?uÂ?w
+=D
+‘?w
+=?xQìD
+Ïˆ?xQì?y™šD„d?y™š?záHD0‡?záH?|(öDÍH?|(ö?}p¤Dg^?}p¤?~¸RDÿ¦?~¸R?€  D—’?€  ?€£×D0?€£×?G®D·'?G®?ë…D`¯?ë…?‚\Dæò?‚\?ƒ33Dƒ?ƒ33?ƒ×
+D:?ƒ×
+?„záD¾¹?„zá?…¸DA ?…¸?…ÂDå‹?…Â?†ffDi?†ff?‡
+=Dª?‡
+=?‡®D‘È?‡®?ˆQìD;?ˆQì?ˆõÃDÒ)?ˆõÃ?‰™šDg^?‰™š?Š=qDüF?Š=q?ŠáHD„¸?ŠáH?‹…D d?‹…?Œ(öD{d?Œ(ö?ŒÌÍDõR?ŒÌÍ?p¤DvÒ?p¤?Ž{D,?Ž{?Ž¸RD‹9?Ž¸R?\)DÝ?\)?  D˜µ?  ?£×Db?£×?‘G®Dƒ_?‘G®?‘ë…D”?‘ë…?’\Dv?’\?“33Dö£?“33?“×
+DZ$?“×
+?”záD×û?”zá?•¸D A¥?•¸?•ÂD ÊŒ?•Â?–ffD!*š?–ff?—
+=D!¤è?—
+=?—®D"ß?—®?˜QìD"zT?˜Qì?˜õÃD"ã’?˜õÃ?™™šD#Lƒ?™™š?š=qD#¬Ó?š=q?šáHD$y?šáH?›…D$[¶?›…?œ(öD$±b?œ(ö?œÌÍD%}?œÌÍ?p¤D%|k?p¤?ž{D%ç‡?ž{?ž¸RD&R~?ž¸R?Ÿ\)D&°ÿ?Ÿ\)?   D'Ñ?   ? £×D'K? £×?¡G®D'‡Ž?¡G®?¡ë…D'æ9?¡ë…?¢\D(:Ê?¢\?£33D(¥?£33?£×
+D(ùG?£×
+?¤záD)b©?¤zá?¥¸D)µ!?¥¸?¥ÂD*?¥Â?¦ffD*mÚ?¦ff?§
+=D*×-?§
+=?§®D+.Ò?§®?¨QìD+š¿?¨Qì?¨õÃD+ü?¨õÃ?©™šD,Tž?©™š?ª=qD,¤?ª=q?ªáHD,òÏ?ªáH?«…D-Aa?«…?¬(öD-ˆ{?¬(ö?¬ÌÍD-È?¬ÌÍ?­p¤D.k?­p¤?®{D.EŠ?®{?®¸RD.c?®¸R?¯\)D.ß$?¯\)?°  D/0Ö?°  ?°£×D/‚R?°£×?±G®D/½??±G®?±ë…D/û`?±ë…?²\D0'Ÿ?²\?³33D0\ß?³33?³×
+D0†Ù?³×
+?´záD0Ë?´zá?µ¸D0þÎ?µ¸?µÂD1Bh?µÂ?¶ffD1q&?¶ff?·
+=D1©ð?·
+=?·®D1Òñ?·®?¸QìD2
+¾?¸Qì?¸õÃD27?¸õÃ?¹™šD2_²?¹™š?º=qD2ˆ?º=q?ºáHD2°D?ºáH?»…D2Ö??»…?¼(öD2ùö?¼(ö?¼ÌÍD3`?¼ÌÍ?½p¤D3@?½p¤?¾{D3p÷?¾{?¾¸RD3®ã?¾¸R?¿\)D3ì?¿\)?À  D4)˜?À  ?À£×D4SÎ?À£×?ÁG®D4dâ?ÁG®?Áë…D4ƒ?Áë…?Â\D4§?Â\?Ã33D4Û¨?Ã33?Ã×
+D4í?Ã×
+?ÄzáD5Œ?Äzá?Å¸D5&q?Å¸?ÅÂD5HD?ÅÂ?ÆffD5Yþ?Æff?Ç
+=D3Q?Ç
+=?Ç®D$œ?Ç®?ÈQìDÝ??ÈQì?ÈõÃDòè?ÈõÃ?É™šDQº?É™š?Ê=qD°3?Ê=q?ÊáHD"Wˆ?ÊáH?Ë…D Bl?Ë…?Ì(öDºˆ?Ì(ö?ÌÌÍDÍ
+?ÌÌÍ?Íp¤D»g?Íp¤?Î{D Ÿˆ?Î{?Î¸RD"®ò?Î¸R?Ï\)D#n¼?Ï\)?Ð  D"à?Ð  ?Ð£×D"?Ð£×?ÑG®D!‚?ÑG®?Ñë…D!:f?Ñë…?Ò\D!¡´?Ò\?Ó33D!è<?Ó33?Ó×
+D"¿¯?Ó×
+?ÔzáD#ò?Ôzá?Õ¸D#ÙM?Õ¸?ÕÂD#ßö?ÕÂ?ÖffD#c?Öff?×
+=D#7é?×
+=?×®D#þ?×®?ØQìD"ò“?ØQì?ØõÃD"ùh?ØõÃ?Ù™šD#>W?Ù™š?Ú=qD#€¾?Ú=q?ÚáHD#…–?ÚáH?Û…D#× ?Û…?Ü(öD#ë¢?Ü(ö?ÜÌÍD$c?ÜÌÍ?Ýp¤D$?Ýp¤?Þ{D$%?Þ{?Þ¸RD$\?Þ¸R?ß\)D$¼?ß\)?à  D$Ð?à  ?à£×D#âJ?à£×?áG®D$h?áG®?áë…D$RK?áë…?â\D$fZ?â\?ã33D$uú?ã33?ã×
+D$Žº?ã×
+?äzáD$­	?äzá?å¸D$¥É?å¸?åÂD$#9?åÂ?æffD#á-?æff?ç
+=D#r?ç
+=?ç®D#~>?ç®?èQìD#Ãµ?èQì?èõÃD#û??èõÃ?é™šD#Dô?é™š?ê=qD#…(?ê=q?êáHD$Î3?êáH?ë…D)¡?ë…?ì(öD)t?ì(ö?ìÌÍD"Œ]?ìÌÍ?íp¤D'ê?íp¤?î{D'á?î{?î¸RD'áT?î¸R?ï\)D'ÿÞ?ï\)?ð  D(~U?ð  ?ð£×D(ñ6?ð£×?ñG®D(÷–?ñG®?ñë…D(÷?ñë…?ò\D(Ú’?ò\?ó33D(¤c?ó33?ó×
+D(gå?ó×
+?ôzáD(A+?ôzá?õ¸D($]?õ¸?õÂD(C?õÂ?öffD'ît?öff?÷
+=D'Ó©?÷
+=?÷®D'²Å?÷®?øQìD'‘‡?øQì?øõÃD'g`?øõÃ?ù™šD'<ÿ?ù™š?ú=qD'?ú=q?úáHD&Ï.?úáH?û…D&B?û…?ü(öD&]d?ü(ö?üÌÍD&@Ø?üÌÍ?ýp¤D&%…?ýp¤?þ{D%Ó{?þ{?þ¸RD%Jq?þ¸R?ÿ\)D$ÀË?ÿ\)@   D#Ø¬@   @ QìD"Q@ Qì@ £×D!E3@ £×@ õÃDüP@ õÃ@G®D	_@G®@™šD[@™š@ë…DtÕ@ë…@=qD7@=q@\Dtž@\@áHDÄ´@áH@33Dö@33@…Deî@…@×
+D
+ü@×
+@(öCú,~@(ö@záCå¢B@zá@ÌÍCÒ@ÌÍ@¸CÀŒz@¸@p¤C¹õ½@p¤@ÂC¸Äø@Â@{C»9A@{@ffC¿ „@ff@¸RC¿¯å@¸R@
+=C¿Cì@
+=@\)C¾íî@\)@®C½W_@®@  C¹BÃ@  @QìC´ Í@Qì@£×C¯Äu@£×@õÃC¯¤û@õÃ@	G®C¬'&@	G®@	™šC§.Ò@	™š@	ë…C¢\@	ë…@
+=qC ß@
+=q@
+\C¢G'@
+\@
+áHC¥µE@
+áH@33C¨ß¼@33@…Cª(š@…@×
+Cª*@×
+@(öC«°’@(ö@záC­µ£@zá@ÌÍC¯š @ÌÍ@¸C±ME@¸@p¤C³W±@p¤@ÂC¶è@Â@{C¸l«@{@ffC¹Ö#@ff@¸RC»@¸R@
+=C¼Lƒ@
+=@\)C½&P@\)@®C½o@®@  C½Z@  @QìC¼e@Qì@£×C¼[™@£×@õÃC½7Ó@õÃ@G®C¿á@G®@™šCÁ]X@™š@ë…CÃK.@ë…@=qCÄÚ@=q@\CÆ+ù@\@áHCÇ‰@áH@33CÇrZ@33@…CÇ”È@…@×
+CÇ¾œ@×
+@(öCÇÔƒ@(ö@záCÇ†‘@zá@ÌÍCÆõê@ÌÍ@¸CÆîf@¸@p¤CÇæ³@p¤@ÂCÉC9@Â@{CÊq°@{@ffCËMú@ff@¸RCÌÝ@¸R@
+=CÌÝ€@
+=@\)CÍØp@\)@®CÎ¨¾@®@  CÏ†@  @QìCÎú½@Qì@£×CÎ¢@£×@õÃCÎ;â@õÃ@G®CÍÆ"@G®@™šCÍ‹j@™š@ë…CÍ©z@ë…@=qCÎ-è@=q@\CÎßn@\@áHCÏ‡X@áH@33CÐg@33@…CÐ‚Ë@…@×
+CÐÞÙ@×
+@(öCÑ5?@(ö@záCÑ‘.@zá@ÌÍCÑ×@ÌÍ@¸CÒL@¸@p¤CÒ>×@p¤@ÂCÒü@Â@{CÑÄV@{@ffCÑZ´@ff@¸RCÐæ·@¸R@
+=CÐ‰u@
+=@\)CÐ9W@\)@®CÏØÜ@®@   CÏ‚@   @ QìCÏ6@ Qì@ £×CÏç@ £×@ õÃCÎñö@ õÃ@!G®CÎvE@!G®@!™šCÍÅ*@!™š@!ë…CÌ¢Œ@!ë…@"=qCÊÀk@"=q@"\CÇfI@"\@"áHCÀæµ@"áH@#33C´E|@#33@#…Cµ.¹@#…@#×
+C¿:ˆ@#×
+@$(öCÂ;%@$(ö@$záCÄ8;@$zá@$ÌÍCÅÊ@$ÌÍ@%¸CÅvb@%¸@%p¤CÆ[%@%p¤@%ÂCÇÂ4@%Â@&{CÈ×s@&{@&ffCÉg…@&ff@&¸RCÉ¤«@&¸R@'
+=CÊ9+@'
+=@'\)CËY@'\)@'®CËù|@'®@(  CÌ£Ø@(  @(QìCÍUÅ@(Qì@(£×CÎ @(£×@(õÃCÎaü@(õÃ@)G®CÎ–Ú@)G®@)™šCÎ®]@)™š@)ë…CÎÉ»@)ë…@*=qCÏš@*=q@*\CÏTã@*\@*áHCÏ—Â@*áH@+33CÏÆl@+33@+…CÏü @+…@+×
+CÐQ¾@+×
+@,(öCÐÊ€@,(ö@,záCÑHk@,zá@,ÌÍCÑ¤:@,ÌÍ@-¸CÑÐ@-¸@-p¤CÑß¾@-p¤@-ÂCÑùÔ@-Â@.{CÒ$@.{@.ffCÒY]@.ff@.¸RCÒªÊ@.¸R@/
+=CÒðý@/
+=@/\)CÓ,Ç@/\)@/®CÓl @/®@0  CÓ±J@0  @0QìCÔÆ@0Qì@0£×CÔm€@0£×@0õÃCÔÔ;@0õÃ@1G®CÕ;@1G®@1™šCÕ@1™š@1ë…CÕ¦e@1ë…@2=qCÕÂÃ@2=q@2\CÕÖB@2\@2áHCÕæv@2áH@333CÕð‚@333@3…CÕíh@3…@3×
+CÕß|@3×
+@4(öCÕÎJ@4(ö@4záCÕ¹å@4zá@4ÌÍCÕ»ÿ@4ÌÍ@5¸CÕÓâ@5¸@5p¤CÖ ª@5p¤@5ÂCÖ@R@5Â@6{CÖfµ@6{@6ffCÖsA@6ff@6¸RCÖwÛ@6¸R@7
+=CÖr‚@7
+=@7\)CÖP@7\)@7®CÖ?@7®@8  CÕ»g@8  @8QìCÕLì@8Qì@8£×CÔÁ€@8£×@8õÃCÔ+@8õÃ@9G®CÓC@9G®@9™šCÑï@9™š@9ë…CÏ‰¸@9ë…@:=qCÍC@:=q@:\CÎ ö@:\@:áHCÐ4ˆ@:áH@;33CÐíà@;33@;…CÑÈÈ@;…@;×
+CÑù*@;×
+@<(öCÒ(–@<(ö@<záCÒ€@@<zá@<ÌÍCÒÿ@<ÌÍ@=¸CÓ>¬@=¸@=p¤CÓ@k@=p¤@=ÂCÓPƒ@=Â@>{CÓo0@>{@>ffCÓ­J@>ff@>¸RCÔV@>¸R@?
+=CÔlh@?
+=@?\)CÔÐç@?\)@?®CÔãÕ@?®@@  CÔ¥‘@@  @@QìCÔÒ@@Qì@@£×CÕi‡@@£×@@õÃCÕ½h@@õÃ@AG®CÕÍÚ@AG®@A™šCÕðª@A™š@Aë…CÖ%Ê@Aë…@B=qCÖ<Ž@B=q@B\CÖ4ô@B\@BáHCÖ)«@BáH@C33CÖ»@C33@C…CÖ3d@C…@C×
+CÖs¬@C×
+@D(öCÖ|Ž@D(ö@DzáCÖN@Dzá@DÌÍCÖ>ž@DÌÍ@E¸CÖMà@E¸@Ep¤CÖQ@Ep¤@EÂCÖGÊ@EÂ@F{CÖl@F{@FffCÖ½„@Fff@F¸RCÖÑÊ@F¸R@G
+=CÖ¨‡@G
+=@G\)CÖ˜[@G\)@G®CÖ¡@G®@H  CÖª°@H  @HQìCÖ´Ù@HQì@H£×CÖ®@H£×@HõÃCÖ–o@HõÃ@IG®CÖxR@IG®@I™šCÖSÛ@I™š@Ië…CÕý”@Ië…@J=qCÕuŠ@J=q@J\CÔç¿@J\@JáHCÔT,@JáH@K33CÓ?¦@K33@K…CÒy@K…@K×
+CÑÔ<@K×
+@L(öCÑì/@L(ö@LzáCÒ Ø@Lzá@LÌÍCÓ#È@LÌÍ@M¸CÓSâ@M¸@Mp¤CÓÐÃ@Mp¤@MÂCÓ·t@MÂ@N{CÔ=ì@N{@NffCÔïà@Nff@N¸RCÕ$3@N¸R@O
+=CÕ&+@O
+=@O\)CÕi-@O\)@O®CÕP“@O®@P  CÕ_@P  @PQìCÕŽk@PQì@P£×CÕ¨˜@P£×@PõÃCÕÁØ@PõÃ@QG®CÕ×¬@QG®@Q™šCÕí‚@Q™š@Që…CÖ@Që…@R=qCÖ%í@R=q@R\CÖD;@R\@RáHCÖb€@RáH@S33CÖ€Ë@S33@S…CÖ‹}@S…@S×
+CÖ‚®@S×
+@T(öCÖyâ@T(ö@TzáCÖq@Tzá@TÌÍCÖhH@TÌÍ@U¸CÖtˆ@U¸@Up¤CÖ–@Up¤@UÂCÖ·m@UÂ@V{CÖØÐ@V{@VffCÖú@Vff@V¸RC×#Y@V¸R@W
+=C×T<@W
+=@W\)C×…@W\)@W®C×µÒ@W®@X  C×æ°@X  @XQìC×õ@XQì@X£×C×á@X£×@XõÃC×Í@XõÃ@YG®C×¹0@YG®@Y™šC×¥-@Y™š@Yë…C×½÷@Yë…@Z=qCØ‰@Z=q@Z\CØHÿ@Z\@ZáHCØŽs@ZáH@[33CØÓØ@[33@[…CØÞÊ@[…@[×
+CØ¯^@[×
+@\(öCØØ@\(ö@\záCØPX@\zá@\ÌÍCØ á@\ÌÍ@]¸C×ý,@]¸@]p¤C×å‘@]p¤@]ÂC×Íç@]Â@^{C×¶4@^{@^ffC×žs@^ff@^¸RC×°@^¸R@_
+=C×ëø@_
+=@_\)CØ'’@_\)@_®CØbð@_®@`  CØž@`  @`QìCØ¯’@`Qì@`£×CØ–B@`£×@`õÃCØ} @`õÃ@aG®CØc³@aG®@a™šCØJu@a™š@aë…CØKV@aë…@b=qCØfZ@b=q@b\CØ_@b\@báHCØœp@báH@c33CØ·l@c33@c…CØË:@c…@c×
+CØ×Ò@c×
+@d(öCØäl@d(ö@dzáCØñ@dzá@dÌÍCØýž@dÌÍ@e¸CØí@e¸@ep¤CØ¿œ@ep¤@eÂCØ’@eÂ@f{CØd}@f{@fffCØ6Ý@fff@f¸RCØ?D@f¸R@g
+=CØ}|@g
+=@g\)CØ»@g\)@g®CØù¦@g®@h  CÙ7Ì@h  @hQìCÙB@hQì@h£×CÙ!@h£×@hõÃCØñn@hõÃ@iG®CØÈ¼@iG®@i™šCØ @i™š@ië…CØƒP@ië…@j=qCØr„@j=q@j\CØa‡@j\@jáHCØP@jáH@k33CØ?‚@k33@k…CØ>@k…@k×
+CØLe@k×
+@l(öCØZš@l(ö@lzáCØhß@lzá@lÌÍCØrV@lÌÍ@m¸CØx`@m¸@mp¤CØ{¯@mp¤@mÂCØ@mÂ@n{CØ‚Z@n{@nffCØ…¢@nff@n¸RCØnD@n¸R@o
+=CØ<-@o
+=@o\)CØ
+"@o\)@o®C×Ø@o®@p  C×¦@p  @pQìC×”Ž@pQì@p£×C×£@p£×@põÃC×²@põÃ@qG®C×Á@qG®@q™šC×Ð‡@q™š@që…C×Ùl@që…@r=qC×ÜP@r=q@r\C×ß1@r\@ráHC×â@ráH@s33C×äì@s33@s…C×Ñ@s…@s×
+C×¦p@s×
+@t(öC×{æ@t(ö@tzáC×QZ@tzá@tÌÍC×&Î@tÌÍ@u¸C×);@u¸@up¤C×X @up¤@uÂC×‡û@uÂ@v{C×·J@v{@vffC×æ@vff@v¸RC×Ëê@v¸R@w
+=C×gm@w
+=@w\)C×é@w\)@w®CÖž@w®@x  CÖ:@x  @xQìCÕú­@xQì@x£×CÕàt@x£×@xõÃCÕÆ;@xõÃ@yG®CÕ¬@yG®@y™šCÕ‘Ï@y™š@yë…CÕ~¿@yë…@z=qCÕrÝ@z=q@z\CÕg
+@z\@záHCÕ[1@záH@{33CÕOV@{33@{…CÕ8î@{…@{×
+CÕì@{×
+@|(öCÔöî@|(ö@|záCÔÕö@|zá@|ÌÍCÔµ@|ÌÍ@}¸CÔ›@}¸@}p¤CÔˆB@}p¤@}ÂCÔuy@}Â@~{CÔb§@~{@~ffCÔOÚ@~ff@~¸RCÔ>k@~¸R@
+=CÔ.Z@
+=@\)CÔL@\)@®CÔ<@®@€  CÓþ.@€  @€(öCÓØb@€(ö@€QìCÓœÔ@€Qì@€záCÓa\@€zá@€£×CÓ%á@€£×@€ÌÍCÒêf@€ÌÍ@€õÃCÒ²ƒ@€õÃ@¸CÒ|@¸@G®CÒA¬@G®@p¤CÒà@p¤@™šCÑÌ@™š@ÂCÑ»1@Â@ë…CÑÔP@ë…@‚{CÑíe@‚{@‚=qCÒq@‚=q@‚ffCÒy@‚ff@‚\CÒ@‚\@‚¸RCÑØ@‚¸R@‚áHCÑ ê@‚áH@ƒ
+=CÑi^@ƒ
+=@ƒ33CÑ1Ò@ƒ33@ƒ\)CÑÔ@ƒ\)@ƒ…CÐÜv@ƒ…@ƒ®CÐ¶@ƒ®@ƒ×
+CÐ¸@ƒ×
+@„  CÐi`@„  @„(öCÐJ@„(ö@„QìCÐ1–@„Qì@„záCÐ)@„zá@„£×CÐ À@„£×@„ÌÍCÏè]@„ÌÍ@„õÃCÏÆÅ@„õÃ@…¸CÏ›û@…¸@…G®CÏq3@…G®@…p¤CÏFv@…p¤@…™šCÏ¿@…™š@…ÂCÎñ@…Â@…ë…CÎÇð@…ë…@†{CÎžT@†{@†=qCÎtÍ@†=q@†ffCÎK>@†ff@†\CÎ$@†\@†¸RCÎ @†¸R@†áHCÍÜÀ@†áH@‡
+=CÍ¸ä@‡
+=@‡33CÍ•@‡33@‡\)CÍ}½@‡\)@‡…CÍrá@‡…@‡®CÍh@‡®@‡×
+CÍ]3@‡×
+@ˆ  CÍR`@ˆ  @ˆ(öCÍ0@ˆ(ö@ˆQìCÌö;@ˆQì@ˆzáCÌ¼v@ˆzá@ˆ£×CÌ‚²@ˆ£×@ˆÌÍCÌHò@ˆÌÍ@ˆõÃCÌ@ˆõÃ@‰¸CËËú@‰¸@‰G®CË‹÷@‰G®@‰p¤CËKø@‰p¤@‰™šCËù@‰™š@‰ÂCÊëÒ@‰Â@‰ë…CÊë—@‰ë…@Š{CÊëI@Š{@Š=qCÊë@Š=q@ŠffCÊê¹@Šff@Š\CÊÒ4@Š\@Š¸RCÊH@Š¸R@ŠáHCÊha@ŠáH@‹
+=CÊ3Œ@‹
+=@‹33CÉþ»@‹33@‹\)CÉÄð@‹\)@‹…CÉ†2@‹…@‹®CÉGz@‹®@‹×
+CÉÄ@‹×
+@Œ  CÈÊ+@Œ  @Œ(öCÈ£×@Œ(ö@ŒQìCÈ•Ê@ŒQì@ŒzáCÈ‡·@Œzá@Œ£×CÈy¦@Œ£×@ŒÌÍCÈk•@ŒÌÍ@ŒõÃCÈ?)@ŒõÃ@¸CÇôn@¸@G®CÇ©À@G®@p¤CÇ_@p¤@™šCÇŽ@™š@ÂCÆ×9@Â@ë…CÆ§2@ë…@Ž{CÆw&@Ž{@Ž=qCÆG,@Ž=q@ŽffCÆ4@Žff@Ž\CÅáö@Ž\@Ž¸RCÅ§r@Ž¸R@ŽáHCÅló@ŽáH@
+=CÅ2‡@
+=@33CÄø@33@\)CÄË¡@\)@…CÄ­@…@®CÄŽ‡@®@×
+CÄoý@×
+@  CÄQ~@  @(öCÄI@(ö@QìCÃÍy@Qì@záCÃÂ@zá@£×CÃ2@£×@ÌÍCÂäo@ÌÍ@õÃCÂ¶Ö@õÃ@‘¸CÂ©F@‘¸@‘G®CÂ›ª@‘G®@‘p¤CÂŽ@‘p¤@‘™šCÂ€w@‘™š@‘ÂCÂP@‘Â@‘ë…CÁüÿ@‘ë…@’{CÁ©ð@’{@’=qCÁVî@’=q@’ffCÁü@’ff@’\CÀ·U@’\@’¸RCÀpí@’¸R@’áHCÀ*—@’áH@“
+=C¿äN@“
+=@“33C¿ž@“33@“\)C¿d¶@“\)@“…C¿9P@“…@“®C¿ô@“®@“×
+C¾âœ@“×
+@”  C¾·N@”  @”(öC¾{Ã@”(ö@”QìC¾0#@”Qì@”záC½ä‹@”zá@”£×C½™@”£×@”ÌÍC½M‘@”ÌÍ@”õÃC¼ý
+@”õÃ@•¸C¼§{@•¸@•G®C¼R@•G®@•p¤C»ü@•p¤@•™šC»§F@•™š@•ÂC»_¦@•Â@•ë…C»%´@•ë…@–{CºëÖ@–{@–=qCº²@–=q@–ffCºx<@–ff@–\Cº:Ü@–\@–¸RC¹ú
+@–¸R@–áHC¹¹6@–áH@—
+=C¹x}@—
+=@—33C¹7Í@—33@—\)C¸ìÉ@—\)@—…C¸—~@—…@—®C¸BC@—®@—×
+C·í!@—×
+@˜  C·˜@˜  @˜(öC·_Ä@˜(ö@˜QìC·DC@˜Qì@˜záC·(Ç@˜zá@˜£×C·F@˜£×@˜ÌÍC¶ñÇ@˜ÌÍ@˜õÃC¶¶e@˜õÃ@™¸C¶[,@™¸@™G®C¶ @™G®@™p¤Cµ¤ø@™p¤@™™šCµIõ@™™š@™ÂCµ V@™Â@™ë…C´È@™ë…@š{C´î@š{@š=qC´WÇ@š=q@šffC´´@šff@š\C³çt@š\@š¸RC³¯ @š¸R@šáHC³v¤@šáH@›
+=C³>Q@›
+=@›33C³	@›33@›\)C²µ@›\)@›…C²Kš@›…@›®C±â6@›®@›×
+C±xê@›×
+@œ  C±²@œ  @œ(öC°¿@œ(ö@œQìC°_@œQì@œzáC°C,@œzá@œ£×C° @œ£×@œÌÍC¯Æß@œÌÍ@œõÃC¯w3@œõÃ@¸C¯@¸@G®C®µ@G®@p¤C®T@p¤@™šC­óC@™š@ÂC­¤@Â@ë…C­fa@ë…@ž{C­(Ê@ž{@ž=qC¬ë>@ž=q@žffC¬­Â@žff@ž\C¬\¹@ž\@ž¸RC«ø$@ž¸R@žáHC«“­@žáH@Ÿ
+=C«/Z@Ÿ
+=@Ÿ33CªË@Ÿ33@Ÿ\)CªbC@Ÿ\)@Ÿ…C©ôÜ@Ÿ…@Ÿ®C©‡•@Ÿ®@Ÿ×
+C©m@Ÿ×
+@   C¨­b@   @ (öC¨Nò@ (ö@ QìC§ÿ@ Qì@ záC§¯d@ zá@ £×C§_¹@ £×@ ÌÍC§&@ ÌÍ@ õÃC¦Á°@ õÃ@¡¸C¦td@¡¸@¡G®C¦'*@¡G®@¡p¤C¥Ùþ@¡p¤@¡™šC¥Œï@¡™š@¡ÂC¥?K@¡Â@¡ë…C¤ñ@¡ë…@¢{C¤¢ä@¢{@¢=qC¤TÎ@¢=q@¢ffC¤Ð@¢ff@¢\C£³¢@¢\@¢¸RC£[>@¢¸R@¢áHC£ö@¢áH@£
+=C¢ªÇ@£
+=@£33C¢R®@£33@£\)C¡þ›@£\)@£…C¡®«@£…@£®C¡^Ù@£®@£×
+C¡@£×
+@¤  C ¿^@¤  @¤(öC i®@¤(ö@¤QìC @¤Qì@¤záCŸ²t@¤zá@¤£×CŸVö@¤£×@¤ÌÍCžû˜@¤ÌÍ@¤õÃCž¢¿@¤õÃ@¥¸CžL\@¥¸@¥G®Cö@¥G®@¥p¤CŸå@¥p¤@¥™šCIÉ@¥™š@¥ÂCœö@¥Â@¥ë…Cœ£ö@¥ë…@¦{CœMÏ@¦{@¦=qC›÷¼@¦=q@¦ffC›¡Ï@¦ff@¦\C›G»@¦\@¦¸RCšéª@¦¸R@¦áHCš‹·@¦áH@§
+=Cš-ë@§
+=@§33C™Ð.@§33@§\)C™tx@§\)@§…C™Ï@§…@§®C˜ÁB@§®@§×
+C˜gÒ@§×
+@¨  C˜€@¨  @¨(öC—´}@¨(ö@¨QìC—Yà@¨Qì@¨záC–ÿT@¨zá@¨£×C–¤å@¨£×@¨ÌÍC–J¢@¨ÌÍ@¨õÃC•ìY@¨õÃ@©¸C•Š4@©¸@©G®C•((@©G®@©p¤C”ÆB@©p¤@©™šC”dz@©™š@©ÂC”@©Â@©ë…C“¨@©ë…@ª{C“K!@ª{@ª=qC’îP@ª=q@ªffC’‘«@ªff@ª\C’49@ª\@ª¸RC‘Õü@ª¸R@ªáHC‘wä@ªáH@«
+=C‘å@«
+=@«33C¼
+@«33@«\)C^ä@«\)@«…Cm@«…@«®C¦@«®@«×
+CIà@«×
+@¬  CŽíÅ@¬  @¬(öCŽŒG@¬(ö@¬QìCŽ%t@¬Qì@¬záC¾Ä@¬zá@¬£×CX.@¬£×@¬ÌÍCŒñÁ@¬ÌÍ@¬õÃCŒŽò@¬õÃ@­¸CŒ/Ô@­¸@­G®C‹Ð×@­G®@­p¤C‹qü@­p¤@­™šC‹<@­™š@­ÂCŠ¸d@­Â@­ë…CŠav@­ë…@®{CŠ
+ž@®{@®=qC‰³ç@®=q@®ffC‰]E@®ff@®\C‰Ä@®\@®¸RCˆ§b@®¸R@®áHCˆK@®áH@¯
+=C‡ì(@¯
+=@¯33C‡f@¯33@¯\)C‡02@¯\)@¯…C†Ô‰@¯…@¯®C†y@¯®@¯×
+C†›@¯×
+@°  C…ÂO@°  @°(öC…fž@°(ö@°QìC…
+–@°Qì@°záC„®µ@°zá@°£×C„Rì@°£×@°ÌÍCƒ÷J@°ÌÍ@°õÃCƒž¶@°õÃ@±¸CƒI3@±¸@±G®C‚óÐ@±G®@±p¤C‚ž‹@±p¤@±™šC‚I_@±™š@±ÂCò/@±Â@±ë…C˜ý@±ë…@²{C?å@²{@²=qC€æí@²=q@²ffC€Ž@²ff@²\C€2ç@²\@²¸RCª¯@²¸R@²áHC~ïÙ@²áH@³
+=C~5D@³
+=@³33C}zó@³33@³\)C|Ðî@³\)@³…C|7m@³…@³®C{ž@³®@³×
+C{@³×
+@´  Czl@´  @´(öCyÊ@´(ö@´QìCy÷@´Qì@´záCxt&@´zá@´£×CwÉˆ@´£×@´ÌÍCw"@´ÌÍ@´õÃCvo¸@´õÃ@µ¸Cu»c@µ¸@µG®Cu=@µG®@µp¤CtSJ@µp¤@µ™šCsŸ¤@µ™š@µÂCróü@µÂ@µë…CrPP@µë…@¶{Cq¬Ô@¶{@¶=qCq	~@¶=q@¶ffCpfq@¶ff@¶\CoÂs@¶\@¶¸RCoµ@¶¸R@¶áHCny$@¶áH@·
+=CmÔÙ@·
+=@·33Cm0·@·33@·\)Cl•†@·\)@·…Cl,@·…@·®Cknº@·®@·×
+CjÙ\@·×
+@¸  CjD#@¸  @¸(öCi´”@¸(ö@¸QìCi*¬@¸Qì@¸záCh ë@¸zá@¸£×ChW@¸£×@¸ÌÍCgñ@¸ÌÍ@¸õÃCfô‡@¸õÃ@¹¸CfK@¹¸@¹G®Ce¢
+@¹G®@¹p¤Cdù@¹p¤@¹™šCdPf@¹™š@¹ÂCc©@@¹Â@¹ë…CcÎ@¹ë…@º{Cb^•@º{@º=qCa¹ @º=q@ºffCaß@ºff@º\C`S@º\@º¸RC_øó@º¸R@ºáHC_r±@ºáH@»
+=C^ì @»
+=@»33C^fÀ@»33@»\)C]Þn@»\)@»…C]S®@»…@»®C\É6@»®@»×
+C\>Ö@»×
+@¼  C[´¨@¼  @¼(öC[(e@¼(ö@¼QìCZš@¼Qì@¼záCZö@¼zá@¼£×CY}þ@¼£×@¼ÌÍCXð@@¼ÌÍ@¼õÃCXc§@¼õÃ@½¸CWØu@½¸@½G®CWMh@½G®@½p¤CVÂ@½p¤@½™šCV7ä@½™š@½ÂCU­¤@½Â@½ë…CU#±@½ë…@¾{CT™ò@¾{@¾=qCTd@¾=q@¾ffCS†þ@¾ff@¾\CR÷ñ@¾\@¾¸RCRc1@¾¸R@¾áHCQÎ®@¾áH@¿
+=CQ:W@¿
+=@¿33CP¦8@¿33@¿\)CPî@¿\)@¿…CO€F@¿…@¿®CNì»@¿®@¿×
+CNYY@¿×
+@À  CMÆ<@À  @À(öCM5ê@À(ö@ÀQìCL¨¿@ÀQì@ÀzáCLÌ@Àzá@À£×CK@À£×@ÀÌÍCKu@ÀÌÍ@ÀõÃCJ~4@ÀõÃ@Á¸CJ3@Á¸@ÁG®CI†Y@ÁG®@Áp¤CI
+¶@Áp¤@Á™šCH4@Á™š@ÁÂCGýz@ÁÂ@Áë…CGU™@Áë…@Â{CF­ï@Â{@Â=qCFŒ@Â=q@ÂffCE_r@Âff@Â\CDÙy@Â\@Â¸RCDtŽ@Â¸R@ÂáHCDÁ@ÂáH@Ã
+=CC«@Ã
+=@Ã33CCF@Ã33@Ã\)CBÍo@Ã\)@Ã…CB@@@Ã…@Ã®CA³>@Ã®@Ã×
+CA&@Ã×
+@Ä  C@™é@Ä  @Ä(öC@Ë@Ä(ö@ÄQìC?m@ÄQì@ÄzáC>Ó²@Äzá@Ä£×C>:†@Ä£×@ÄÌÍC=¡“@ÄÌÍ@ÄõÃC=¬@ÄõÃ@Å¸C<™È@Å¸@ÅG®C<@ÅG®@Åp¤C; @Åp¤@Å™šC;$5@Å™š@ÅÂC:¨y@ÅÂ@Åë…C:-\@Åë…@Æ{C9²f@Æ{@Æ=qC97œ@Æ=q@ÆffC8½@Æff@Æ\C8:'@Æ\@Æ¸RC7¯\@Æ¸R@ÆáHC7$Ä@ÆáH@Ç
+=C6ša@Ç
+=@Ç33C68@Ç33@Ç\)C5|÷@Ç\)@Ç…C4à@Ç…@Ç®C4D}@Ç®@Ç×
+C3¨š@Ç×
+@È  C3@È  @È(öC2ˆJ@È(ö@ÈQìC2A@ÈQì@ÈzáC1¬d@Èzá@È£×C1>§@È£×@ÈÌÍC0Ñ@ÈÌÍ@ÈõÃC0T¸@ÈõÃ@É¸C/É•@É¸@ÉG®C/>³@ÉG®@Ép¤C.´ @Ép¤@É™šC.)‹@É™š@ÉÂC-™ó@ÉÂ@Éë…C-„@Éë…@Ê{C,qX@Ê{@Ê=qC+Ýn@Ê=q@ÊffC+I¸@Êff@Ê\C*Ð@Ê\@Ê¸RC*pƒ@Ê¸R@ÊáHC* @ÊáH@Ë
+=C)±—@Ë
+=@Ë33C)R\@Ë33@Ë\)C(Þr@Ë\)@Ë…C(Uù@Ë…@Ë®C'Í¶@Ë®@Ë×
+C'E²@Ë×
+@Ì  C&½á@Ì  @Ì(öC&(h@Ì(ö@ÌQìC%…O@ÌQì@ÌzáC$â‹@Ìzá@Ì£×C$@@Ì£×@ÌÌÍC#Ð@ÌÌÍ@ÌõÃC#µ@ÌõÃ@Í¸C"™@Í¸@ÍG®C"!|@ÍG®@Íp¤C!ª@Íp¤@Í™šC!2ø@Í™š@ÍÂC ª¥@ÍÂ@Íë…C A@Íë…@Î{Cx@Î{@Î=qCß9@Î=q@ÎffCF¢@Îff@Î\C»•@Î\@Î¸RC>
+@Î¸R@ÎáHCÀ»@ÎáH@Ï
+=CC@Ï
+=@Ï33CÆµ@Ï33@Ï\)C>y@Ï\)@Ï…Cªé@Ï…@Ï®C @Ï®@Ï×
+C„–@Ï×
+@Ð  Cñ×@Ð  @Ð(öCkÂ@Ð(ö@ÐQìCò°@ÐQì@ÐzáCyÐ@Ðzá@Ð£×C¤@Ð£×@ÐÌÍC‰¦@ÐÌÍ@ÐõÃC þ@ÐõÃ@Ñ¸Cg»@Ñ¸@ÑG®CÎÀ@ÑG®@Ñp¤C6@Ñp¤@Ñ™šC‘@Ñ™š@ÑÂCû»@ÑÂ@Ñë…CP‰@Ñë…@Ò{C¥¦@Ò{@Ò=qCûn@Ò=q@ÒffCQ´@Òff@Ò\C¿Ž@Ò\@Ò¸RCDæ@Ò¸R@ÒáHCÊu@ÒáH@Ó
+=CP@@Ó
+=@Ó33CÖ;@Ó33@Ó\)C\Á@Ó\)@Ó…CäB@Ó…@Ó®Ckù@Ó®@Ó×
+Cóç@Ó×
+@Ô  C|@Ô  @Ô(öC
+û&@Ô(ö@ÔQìC
+p%@ÔQì@ÔzáC	äÙ@Ôzá@Ô£×C	YÊ@Ô£×@ÔÌÍCÏ@ÔÌÍ@ÔõÃCF@ÔõÃ@Õ¸C¿@Õ¸@ÕG®C8[@ÕG®@Õp¤C±Ú@Õp¤@Õ™šC+—@Õ™š@ÕÂC¥h@ÕÂ@Õë…CO@Õë…@Ö{C™n@Ö{@Ö=qCË@Ö=q@ÖffCQ@Öff@Ö\Cƒ@Ö\@Ö¸RC‘”@Ö¸R@ÖáHCÚ@ÖáH@×
+=C˜f@×
+=@×33C!@×33@×\)C žî@×\)@×…C  ¸@×…@×®BÿE“@×®@××
+BþJw@××
+@Ø  BýQ:@Ø  @Ø(öBüQD@Ø(ö@ØQìBûJ¡@ØQì@ØzáBúD„@Øzá@Ø£×Bù>à@Ø£×@ØÌÍBø9µ@ØÌÍ@ØõÃB÷8š@ØõÃ@Ù¸Bö;‹@Ù¸@ÙG®Bõ>ú@ÙG®@Ùp¤BôBØ@Ùp¤@Ù™šBóFh@Ù™š@ÙÂBòJÞ@ÙÂ@Ùë…BñS@Ùë…@Ú{Bð[°@Ú{@Ú=qBïdÎ@Ú=q@ÚffBînk@Úff@Ú\Bítš@Ú\@Ú¸RBìs-@Ú¸R@ÚáHBër>@ÚáH@Û
+=BêqÌ@Û
+=@Û33BéqÊ@Û33@Û\)Bèzi@Û\)@Û…Bç‹›@Û…@Û®Bæš¸@Û®@Û×
+Bå£¼@Û×
+@Ü  Bä­(@Ü  @Ü(öBã·@Ü(ö@ÜQìBâÁp@ÜQì@ÜzáBáÌI@Üzá@Ü£×BàÛÍ@Ü£×@ÜÌÍBßìÀ@ÜÌÍ@ÜõÃBÞôò@ÜõÃ@Ý¸BÝõ?@Ý¸@ÝG®BÜö	@ÝG®@Ýp¤BÛ÷O@Ýp¤@Ý™šBÚù @Ý™š@ÝÂBÚ	T@ÝÂ@Ýë…BÙ*Ü@Ýë…@Þ{BØLß@Þ{@Þ=qB×oI@Þ=q@ÞffBÖ’#@Þff@Þ\BÕ |@Þ\@Þ¸RBÔ™¤@Þ¸R@ÞáHBÓ’@ÞáH@ß
+=BÒŒ@ß
+=@ß33BÑ†@ß33@ß\)BÐ‘u@ß\)@ß…BÏ® @ß…@ß®BÎÌ½@ß®@ß×
+BÍð¥@ß×
+@à  BÍ÷@à  @à(öBÌ(­@à(ö@àQìBË,º@àQì@àzáBÊ1C@àzá@à£×BÉ6K@à£×@àÌÍBÈ;Ø@àÌÍ@àõÃBÇQà@àõÃ@á¸BÆxZ@á¸@áG®BÅŸC@áG®@áp¤BÄÆ–@áp¤@á™šBÃî@@á™š@áÂBÃ@áÂ@áë…BÂ7»@áë…@â{BÁ[à@â{@â=qBÀ€l@â=q@âffB¿¥d@âff@â\B¾Â;@â\@â¸RB½Öõ@â¸R@âáHB¼ì-@âáH@ã
+=B¼Û@ã
+=@ã33B»ñ@ã33@ã\)Bº:°@ã\)@ã…B¹jõ@ã…@ã®B¸›–@ã®@ã×
+B·ÌŸ@ã×
+@ä  B¶þ@ä  @ä(öB¶*K@ä(ö@äQìBµQh@äQì@äzáB´xñ@äzá@ä£×B³ Ý@ä£×@äÌÍB²ÉB@äÌÍ@äõÃB±ý³@äõÃ@å¸B±>.@å¸@åG®B°@åG®@åp¤B¯À8@åp¤@å™šB¯Ë@å™š@åÂB®>v@åÂ@åë…B­vH@åë…@æ{B¬®s@æ{@æ=qB«ç@æ=q@æffB« @æff@æ\BªXÈ@æ\@æ¸RB©’@@æ¸R@æáHB¨Ì#@æáH@ç
+=B¨t@ç
+=@ç33B§A#@ç33@ç\)B¦}¸@ç\)@ç…B¥¼;@ç…@ç®B¤û'@ç®@ç×
+B¤:r@ç×
+@è  B£z @è  @è(öB¢À¨@è(ö@èQìB¢@èQì@èzáB¡[´@èzá@è£×B ©Ê@è£×@èÌÍBŸø/@èÌÍ@èõÃBŸ:Ž@èõÃ@é¸Bžpþ@é¸@éG®B§Û@éG®@ép¤Bœß@ép¤@é™šBœÅ@é™š@éÂB›Xh@éÂ@éë…Bš¤Ü@éë…@ê{B™ñ¹@ê{@ê=qB™>î@ê=q@êffB˜Œ}@êff@ê\B—ÔT@ê\@ê¸RB—n@ê¸R@êáHB–Xè@êáH@ë
+=B•›Ö@ë
+=@ë33B”ß@ë33@ë\)B”Ì@ë\)@ë…B“]à@ë…@ë®B’œ`@ë®@ë×
+B‘ÛU@ë×
+@ì  B‘¥@ì  @ì(öBj/@ì(ö@ìQìBÉÎ@ìQì@ìzáB)Í@ìzá@ì£×BŽŠ@ì£×@ìÌÍBê·@ìÌÍ@ìõÃB8f@ìõÃ@í¸BŒtU@í¸@íG®B‹°¬@íG®@íp¤BŠíf@íp¤@í™šBŠ*”@í™š@íÂB‰w@íÂ@íë…BˆÒ²@íë…@î{Bˆ.³@î{@î=qB‡‹
+@î=q@îffB†è'@îff@î\B†K§@î\@î¸RB…²ˆ@î¸R@îáHB…´@îáH@ï
+=B„0@ï
+=@ï33Bƒèú@ï33@ï\)BƒE<@ï\)@ï…B‚–@ï…@ï®Bç<@ï®@ï×
+B8Å@ï×
+@ð  B€Šª@ð  @ð(öBÆ`@ð(ö@ðQìB~†²@ðQì@ðzáB}G¼@ðzá@ð£×B|	[@ð£×@ðÌÍBzË™@ðÌÍ@ðõÃByˆ_@ðõÃ@ñ¸Bx?´@ñ¸@ñG®Bv÷¶@ñG®@ñp¤Bu°T@ñp¤@ñ™šBti¦@ñ™š@ñÂBs&ö@ñÂ@ñë…BqèB@ñë…@ò{Bpª4@ò{@ò=qBolÇ@ò=q@òffBn0@òff@ò\BlôÌ@ò\@ò¸RBk»@ò¸R@òáHBjò@òáH@ó
+=BiI€@ó
+=@ó33Bh°@ó33@ó\)BfäÔ@ó\)@ó…BeÅ@ó…@ó®Bd¥ý@ó®@ó×
+Bc‡|@ó×
+@ô  Bbi@ô  @ô(öBaI9@ô(ö@ôQìB`&r@ôQì@ôzáB_F@ôzá@ô£×B]â@ô£×@ôÌÍB\ÁŽ@ôÌÍ@ôõÃB[«@ôõÃ@õ¸BZŸE@õ¸@õG®BY“ó@õG®@õp¤BX‰%@õp¤@õ™šBW~î@õ™š@õÂBVr@õÂ@õë…BUb»@õë…@ö{BTSÏ@ö{@ö=qBSE‚@ö=q@öffBR7Ì@öff@ö\BQ q@ö\@ö¸RBPº@ö¸R@öáHBNã@öáH@÷
+=BMÆ@÷
+=@÷33BL©@÷33@÷\)BK˜²@÷\)@÷…BJ”ó@÷…@÷®BI‘´@÷®@÷×
+BH@÷×
+@ø  BGŒÒ@ø  @ø(öBF…»@ø(ö@øQìBEyº@øQì@øzáBDnH@øzá@ø£×BCcb@ø£×@øÌÍBBXø@øÌÍ@øõÃBAP6@øõÃ@ù¸B@I@ù¸@ùG®B?B‡@ùG®@ùp¤B><q@ùp¤@ù™šB=6ù@ù™š@ùÂB<:ç@ùÂ@ùë…B;J‰@ùë…@ú{B:Zœ@ú{@ú=qB9k%@ú=q@úffB8|@úff@ú\B7þ@ú\@ú¸RB6§ƒ@ú¸R@úáHB5Ã¶@úáH@û
+=B4àU@û
+=@û33B3ý`@û33@û\)B3@û\)@û…B2'k@û…@û®B1:<@û®@û×
+B0Mz@û×
+@ü  B/a@ü  @ü(öB.š@ü(ö@üQìB-®ë@üQì@üzáB,Ü›@üzá@ü£×B,
+¢@ü£×@üÌÍB+9@üÌÍ@üõÃB*gK@üõÃ@ý¸B)—‹@ý¸@ýG®B(È@ýG®@ýp¤B'ù@ýp¤@ý™šB'*I@ý™š@ýÂB&_á@ýÂ@ýë…B%™¿@ýë…@þ{B$Óö@þ{@þ=qB$|@þ=q@þffB#IU@þff@þ\B"Š@þ\@þ¸RB!ÐØ@þ¸R@þáHB!Ý@þáH@ÿ
+=B _2@ÿ
+=@ÿ33B¦Í@ÿ33@ÿ\)BÜÚ@ÿ\)@ÿ…Bj@ÿ…@ÿ®B&T@ÿ®@ÿ×
+BK¦@ÿ×
+A   BqRA   A {B®kA {A (öB¿A (öA =qB[JA =qA QìB²/A QìA ffB	OA ffA záB_›A záA \BµA \A £×B
+ÎA £×A ¸RB`ÕA ¸RA ÌÍB·A ÌÍA áHBkA áHA õÃB‡ºA õÃA
+=BöMA
+=A¸BeA¸A33BÔ A33AG®B;2AG®A\)BšŽA\)Ap¤Bú*Ap¤A…BZA…A™šBº.A™šA®B"&A®AÂB“ AÂA×
+BRA×
+Aë…Bw?Aë…A  BépA  A{B^ˆA{A(öB
+ÖžA(öA=qB
+NáA=qAQìB	ÇfAQìAffB	@AffAzáB¼®AzáA\B=A\A£×B½³A£×A¸RB>†A¸RAÌÍB¿‡AÌÍAáHBAOAáHAõÃBÃàAõÃA
+=BG:A
+=A¸BÎA¸A33BTôA33AG®BØÈAG®A\)B[A\)Ap¤BÝ¯Ap¤A…B`kA…A™šBã]A™šA®BpiA®AÂBAÂA×
+B ž¼A×
+Aë…B 6 Aë…A  Aÿ›YA  A{AþÄjA{A(öAýç‰A(öA=qAý
+úA=qAQìAü.ÉAQìAffAûRïAffAzáAú€AzáA\Aù¶3A\A£×Aøì‚A£×A¸RAø#3A¸RAÌÍA÷Z9AÌÍAáHAö‘ªAáHAõÃAõÍAõÃA
+=AõãA
+=A¸AôEA¸A33Aó]A33AG®Aò¹`AG®A\)AñìúA\)Ap¤Añ!Ap¤A…AðUEA…A™šAï‰ìA™šA®AîÂ~A®AÂAíÿAÂA×
+Aí;æA×
+Aë…AìxúAë…A  Aë¶nA  A{Aê÷ëA{A(öAê=ŒA(öA=qAéƒeA=qAQìAèÉAQìAffAèAffAzáAçPSAzáA\AæŽ›A\A£×AåÍ.A£×A¸RAåA¸RAÌÍAäK>AÌÍAáHAã”ãAáHAõÃAâèÖAõÃA
+=Aâ=A
+=A¸Aá‘¦A¸A33AàækA33AG®Aà6SAG®A\)AßpA\)Ap¤AÞÌÔAp¤A…AÞ€A…A™šAÝdlA™šA®AÜ¸ŽA®AÂAÜÇAÂA×
+AÛqFA×
+Aë…AÚÍìAë…A  AÚ*âA  A{AÙ‰vA{A(öAØî†A(öA=qAØSÑA=qAQìA×¹ZAQìAffA×AffAzáAÖ| AzáA\AÕÖ=A\A£×AÕ0œA£×A¸RAÔ‹0A¸RAÌÍAÓæAÌÍAáHAÓFáAáHAõÃAÒ­´AõÃA	
+=AÒÁA	
+=A	¸AÑ|A	¸A	33AÐãˆA	33A	G®AÐKA	G®A	\)AÏ²A	\)A	p¤AÏEA	p¤A	…AÎ‚;A	…A	™šAÍêtA	™šA	®AÍZêA	®A	ÂAÌÙƒA	ÂA	×
+AÌXKA	×
+A	ë…AË×>A	ë…A
+  AËVaA
+  A
+{AÊÌúA
+{A
+(öAÊ;A
+(öA
+=qAÉ©gA
+=qA
+QìAÉõA
+QìA
+ffAÈ†¼A
+ffA
+záAÇüÑA
+záA
+\AÇzA
+\A
+£×AÆ÷’A
+£×A
+¸RAÆuBA
+¸RA
+ÌÍAÅóA
+ÌÍA
+áHAÅq¦A
+áHA
+õÃAÄðòA
+õÃA
+=AÄpqA
+=A¸AÃð!A¸A33AÃoòA33AG®AÂçZAG®A\)AÂ]³A\)Ap¤AÁÔKAp¤A…AÁKA…A™šAÀÂA™šA®AÀ>‚A®AÂA¿À\AÂA×
+A¿BbA×
+Aë…A¾Ä†Aë…A  A¾FëA  A{A½ÁœA{A(öA½4¿A(öA=qA¼¨
+A=qAQìA¼—AQìAffA»bAffAzáA»
+!AzáA\Aº‹áA\A£×AºÄA£×A¸RA¹âA¸RAÌÍA¹+AÌÍAáHA¸Ž_AáHAõÃA¸AõÃA
+=A·øA
+=A¸A·A¸A33A¶ŽSA33AG®A¶ŠAG®A\)Aµ‹«A\)Ap¤Aµ
+	Ap¤A…A´ˆˆA…A™šA´PA™šA®A³†‡A®AÂA³?AÂA×
+A²†*A×
+Aë…A²Aë…A  A±Ž2A  A{A±`A{A(öA°›1A(öA=qA°"*A=qAQìA¯©\AQìAffA¯0µAffAzáA®­ÊAzáA\A®,ÒA\A£×A­¬A£×A¸RA­+rA¸RAÌÍA¬«AÌÍAáHA¬*¿AáHAõÃA«ªwAõÃA
+=A«*lA
+=A¸Aªª’A¸A33Aª*èA33AG®A©®•AG®A\)A©5–A\)Ap¤A¨¼ÊAp¤A…A¨D/A…A™šA§ËÁA™šA®A§IHA®AÂA¦¼ÆAÂA×
+A¦0ŒA×
+Aë…A¥¤|Aë…A  A¥¸A  A{A¤†¡A{A(öA£ý¾A(öA=qA£uA=qAQìA¢ì¨AQìAffA¢dqAffAzáA¡éAzáA\A¡zgA\A£×A¡åA£×A¸RA ’A¸RAÌÍA /hAÌÍAáHAŸ¿øAáHAõÃAŸOSAõÃA
+=AžÞÚA
+=A¸AžnA¸A33AþfA33AG®A‹ŽAG®A\)AùA\)Ap¤Aœ Ap¤A…Aœ+eA…A™šA›¶dA™šA®A›5EA®AÂAš»íAÂA×
+AšBÔA×
+Aë…A™ÉéAë…A  A™Q4A  A{A˜âÛA{A(öA˜~ÒA(öA=qA˜óA=qAQìA—·5AQìAffA—S AffAzáA–âtAzáA\A–cÆA\A£×A•åDA£×A¸RA•gA¸RAÌÍA”èúAÌÍAáHA”p{AáHAõÃA“ýqAõÃA
+=A“Š¢A
+=A¸A“–A¸A33A’«A33AG®A’;½AG®A\)A‘äˆA\)Ap¤A‘xAp¤A…A‘6A…A™šAß®A™šA®A{üA®AÂAlAÂA×
+A›A×
+Aë…A*ëAë…A  AŽºþA  A{AŽJÍA{A(öAÚ`A(öA=qAj)A=qAQìAŒú%AQìAffAŒŠTAffAzáAŒAzáA\A‹—DA\A£×A‹¼A£×A¸RAŠžvA¸RAÌÍAŠ"gAÌÍAáHA‰™*AáHAõÃA‰(OAõÃA
+=Aˆ·²A
+=A¸AˆGTA¸A33A‡×A33AG®A‡bÝAG®A\)A†êƒA\)Ap¤A†rmAp¤A…A…úŠA…A™šA…‚òA™šA®A…NA®AÂA„–ªAÂA×
+A„!<A×
+Aë…Aƒ¬Aë…A  Aƒ7A  A{A‚ÁóA{A(öA‚L¢A(öA=qA×†A=qAQìAb³AQìAffA€îAffAzáA€[›AzáA\AÇüA\A£×A~Ù+A£×A¸RA}êðA¸RAÌÍA|ý9AÌÍAáHA|RAáHAõÃA{0<AõÃA
+=AzLªA
+=A¸Ayi›A¸A33Ax†óA33AG®AwœHAG®A\)Av©„A\)Ap¤Au·QAp¤A…AtÅ«A…A™šAsÔ•A™šA®Arå”A®AÂAqøÃAÂA×
+AqiA×
+Aë…Ap  Aë…A  Ao5VA  A{AmíA{A(öAlüäA(öA=qAl5A=qAQìAkAQìAffAj4âAffAzáAi@AzáA\Ah=èA\A£×Ag<IA£×A¸RAf;VA¸RAÌÍAe;AÌÍAáHAdD3AáHAõÃAcVÖAõÃA
+=AbjA
+=A¸Aa}àA¸A33A`’%A33AG®A_™=AG®A\)A^“A\)Ap¤A]˜Ap¤A…A\ˆ°A…A™šA[„˜A™šA®AZ‚&A®AÂAY‰BAÂA×
+AX‘A×
+Aë…AW™lAë…A  AV¢mA  A{AU¬„A{A(öAT·ÅA(öA=qASÃžA=qAQìARÐAQìAffAQÝ4AffAzáAPß.AzáA\AOÖA\A£×ANÍ©A£×A¸RAMÅõA¸RAÌÍAL¾îAÌÍAáHAK¶ËAáHAõÃAJ­mAõÃA
+=AI¤ÕA
+=A¸AHœûA¸A33AG•ÁA33AG®AF¬AG®A\)AEZÅA\)Ap¤AD6¸Ap¤A…ACvA…A™šAAñA™šA®A@Ñ\A®AÂA?´\AÂA×
+A>˜'A×
+Aë…A=|¾Aë…A  A<b+A  A{A;6ÎA{A(öA9úäA(öA=qA8¿ÞA=qAQìA7…ÙAQìAffA6L¶AffAzáA5ÞAzáA\A3áFA\A£×A2­ƒA£×A¸RA1zÇA¸RAÌÍA0HâAÌÍAáHA/JAáHAõÃA-ÇÖAõÃA
+=A,ƒsA
+=A¸A+@A¸A33A)ý“A33AG®A(¼xAG®A\)A'|ÂA\)Ap¤A&>Ap¤A…A% DA…A™šA#ÃwA™šA®A"ƒ™A®AÂA!DÄAÂA×
+A A×
+Aë…AÊ^Aë…A  AŽ“A  A{AWLA{A(öA$„A(öA=qAòžA=qAQìAÁ§AQìAffA‘™AffAzáAkKAzáA\AN“A\A£×A2§A£×A¸RAŠA¸RAÌÍAý0AÌÍAáHAÞ;AáHAõÃAº›AõÃA
+=A—ìA
+=A¸AvA¸A33ATúA33AG®A6AG®A\)A
+A\)Ap¤AÿzAp¤A…Aå.A…A™šAË¾A™šA®AÆ‰A®AÂAÕAÂA×
+Aå$A×
+Aë…AõkAë…A   A]A   A {ASfA {A (öA Ü/A (öA =qA e;A =qA Qì@ÿÝ!A QìA ff@þð@A ffA zá@ýëjA záA \@üÎ§A \A £×@û²}A £×A ¸R@ú—A ¸RA ÌÍ@ù|=A ÌÍA áH@øYlA áHA õÃ@÷3?A õÃA!
+=@öüA!
+=A!¸@ôé{A!¸A!33@óÅ¤A!33A!G®@òƒÊA!G®A!\)@ñ$A!\)A!p¤@ïÅ/A!p¤A!…@îgNA!…A!™š@í
+RA!™šA!®@ë9yA!®A!Â@èõZA!ÂA!×
+@æ³
+A!×
+A!ë…@ärVA!ë…A"  @â3„A"  A"{@ßèA"{A"(ö@Ý‘˜A"(öA"=q@Û<eA"=qA"Qì@Øé
+A"QìA"ff@Ö—~A"ffA"zá@ÔXA"záA"\@Ò*·A"\A"£×@Ïÿ!A"£×A"¸R@ÍÕ_A"¸RA"ÌÍ@Ë­PA"ÌÍA"áH@É}oA"áHA"õÃ@ÇE®A"õÃA#
+=@ÅØA#
+=A#¸@ÂÛáA#¸A#33@À©–A#33A#G®@¾‡ØA#G®A#\)@¼vEA#\)A#p¤@ºf|A#p¤A#…@¸XVA#…A#™š@¶KôA#™šA#®@´0ÑA#®A#Â@²A#ÂA#×
+@¯ßA#×
+A#ë…@­¸àA#ë…A$  @«”A$  A${@© tA${A$(ö@§ÜtA$(öA$=q@¦áA$=qA$Qì@¤XÌA$QìA$ff@¢™>A$ffA$zá@ ²A$záA$\@ž£¬A$\A$£×@œ–÷A$£×A$¸R@šŒ"A$¸RA$ÌÍ@˜ƒA$ÌÍA$áH@–±àA$áHA$õÃ@•4A$õÃA%
+=@“€A%
+=A%¸@‘é/A%¸A%33@S¬A%33A%G®@Žˆ<A%G®A%\)@Œ‡A%\)A%p¤@Š‡ºA%p¤A%…@ˆŠ-A%…A%™š@†Ž‡A%™šA%®@„}ŒA%®A%Â@‚W^A%ÂA%×
+@€3>A%×
+A%ë…@|"-A%ë…A&  @wâ$A&  A&{@t]¨A&{A&(ö@q“êA&(öA&=q@nÒ0A&=qA&Qì@lÈA&QìA&ff@iYÓA&ffA&zá@f}fA&záA&\@cÒA&\A&£×@`„ÜA&£×A&¸R@]Œ°A&¸RA&ÌÍ@Z—A&ÌÍA&áH@W‹¯A&áHA&õÃ@TjZA&õÃA'
+=@QLA'
+=A'¸@N0¶A'¸A'33@KA'33A'G®@H\A'G®A'\)@DòvA'\)A'p¤@AäA'p¤A'…@>×úA'…A'™š@;ÎþA'™šA'®@8ÜÀA'®A'Â@6-A'ÂA'×
+@3(KA'×
+A'ë…@0R&A'ë…A(  @-~ÉA(  A({@*®¼A({A((ö@'â6A((öA(=q@%pA(=qA(Qì@"QA(QìA(ff@KA(ffA(zá@ìA(záA(\@m¨A(\A(£×@ñ‘A(£×A(¸R@wýA(¸RA(ÌÍ@ ÅA(ÌÍA(áH@{¯A(áHA(õÃ@èÊA(õÃA)
+=@YTA)
+=A)¸@ÌÐA)¸A)33@B¬A)33A)G®@å£A)G®A)\)@µaA)\)A)p¤?ÿ A)p¤A)…?ú¶›A)…A)™š?öbêA)™šA)®?òyA)®A)Â?í¿MA)ÂA)×
+?érgA)×
+A)ë…?å)¢A)ë…A*  ?àå:A*  A*{?Üð¼A*{A*(ö?ÙKöA*(öA*=q?Õª¨A*=qA*Qì?ÒÀA*QìA*ff?ÎwŒA*ffA*zá?ÊþªA*záA*\?Ç¤A*\A*£×?ÄLxA*£×A*¸R?ÀøBA*¸RA*ÌÍ?½§4A*ÌÍA*áH?ºÝA*áHA*õÃ?·±ÌA*õÃA+
+=?´Ö›A+
+=A+¸?±þ(A+¸A+33?¯(SA+33A+G®?¬m7A+G®A+\)?©ÌA+\)A+p¤?§.wA+p¤A+…?¤’ÖA+…A+™š?¡ùÎA+™šA+®?Ÿ]8A+®A+Â?œ½'A+ÂA+×
+?š A+×
+A+ë…?—„—A+ë…A,  ?”ì4A,  A,{?’Â5A,{A,(ö?‘A,(öA,=q?K†A,=qA,Qì?’¢A,QìA,ff?‹Û\A,ffA,zá?Š	IA,záA,\?ˆ†A,\A,£×?†1’A,£×A,¸R?„HA,¸RA,ÌÍ?‚aUA,ÌÍA,áH?€‡&A,áHA,õÃ?}s³A,õÃA-
+=?yÜ¸A-
+=A-¸?vIGA-¸A-33?r¹#A-33A-G®?oCÚA-G®A-\)?kéA-\)A-p¤?h“AA-p¤A-…?eCOA-…A-™š?aöA-™šA-®?^¸ƒA-®A-Â?[‰A-ÂA-×
+?X\€A-×
+A-ë…?U2îA-ë…A.  ?RxA.  A.{?N÷»A.{A.(ö?KôÅA.(öA.=q?Hô§A.=qA.Qì?E÷yA.QìA.ff?Bý.A.ffA.zá?@ŽA.záA.\?=[aA.\A.£×?:™øA.£×A.¸R?7ÛA.¸RA.ÌÍ?5«A.ÌÍA.áH?2rrA.áHA.õÃ?/ÖA.õÃA/
+=?-<\A/
+=A/¸?*¥.A/¸A/33?(oA/33A/G®?%v˜A/G®A/\)?"×‰A/\)A/p¤? ;"A/p¤A/…?¡JA/…A/™š?
+A/™šA/®?}A/®A/Â?ûßA/ÂA/×
+?}×A/×
+A/ë…?.A/ë…A0  ?ˆþA0  A0{?ýA0{A0(ö?	mUA0(öA0=q?Û5A0=qA0Qì?K¢A0QìA0ff?¾¢A0ffA0zá>þ]§A0záA0\>ù8tA0\A0£×>ôAA0£×A0¸R>îýPA0¸RA0ÌÍ>éçXA0ÌÍA0áH>ä®rA0áHA0õÃ>ßR”A0õÃA1
+=>Ùü\A1
+=A1¸>Ô«ŒA1¸A133>Ï_æA133A1G®>Ê¯A1G®A1\)>ÄÒ°A1\)A1p¤>¿”A1p¤A1…>ºZñA1…A1™š>µ'&A1™šA1®>°A1®A1Â>ªô¯A1ÂA1×
+>¥é`A1×
+A1ë…> ã(A1ë…A2  >›â0A2  A2{>—fA2{A2(ö>’‚±A2(öA2=q>ò›A2=qA2Qì>‰gSA2QìA2ff>„àÅA2ffA2zá>€ØqA2záA2\>z›(A2\A2£×>sŒŒA2£×A2¸R>l…dA2¸RA2ÌÍ>e…MA2ÌÍA2áH>_žâA2áHA2õÃ>ZÏA2õÃA3
+=>V&A3
+=A3¸>Q>A3¸A333>L|’A333A3G®>?É˜A3G®A3\)>(SA3\)A3p¤=ñkNA3p¤A3…=¥fjA3…A3™š>%ïA3™šA3®>8Â†A3®A3Â><ô©A3ÂA3×
+>C¦£A3×
+A3ë…>E˜iA3ë…A4  >EA4  A4{>Gg¡A4{A4(ö>H	ƒA4(öA4=q>HªVA4=qA4Qì>IJA4QìA4ff>IèæA4ffA4zá>K•×A4záA4\>NNÍA4\A4£×>QˆA4£×A4¸R>S·A4¸RA4ÌÍ>VfhA4ÌÍA4áH>WB¾A4áHA4õÃ>VNÀA4õÃA5
+=>U[ŠA5
+=A5¸>TiA5¸A533>SwA533A5G®>S+kA5G®A5\)>S„öA5\)A5p¤>SÝÈA5p¤A5…>T3êA5…A5™š>TˆôA5™šA5®>U6ŸA5®A5Â>V<TA5ÂA5×
+>W@˜A5×
+A5ë…>XDA5ë…A6  >YGA6  A6{>XÆÚA6{A6(ö>VÄlA6(öA6=q>TÃºA6=qA6Qì>RÄóA6QìA6ff>PÇþA6ffA6zá>O¡ÅA6záA6\>ORžA6\A6£×>OtA6£×A6¸R>N´?A6¸RA6ÌÍ>NeA6ÌÍA6áH>NéA6áHA6õÃ>MßXA6õÃA7
+=>M ¸A7
+=A7¸>MbA7¸A733>M#<A733A7G®>L'nA7G®A7\)>JošA7\)A7p¤>H·A7p¤A7…>FÿÀA7…A7™š>EJ"A7™šA7®>DIðA7®A7Â>CþA7ÂA7×
+>C²-A7×
+A7ë…>CfIA7ë…A8  >CgA8  A8{>BzºA8{A8(ö>A‡çA8(öA8=q>@šÈA8=qA8Qì>?¯¼A8QìA8ff>>Å/A8ffA8zá>=eA8záA8\><8tA8\A8£×>:ÔªA8£×A8¸R>9rA8¸RA8ÌÍ>8ÃA8ÌÍA8áH>6ëÄA8áHA8õÃ>6šA8õÃA9
+=>50A9
+=A9¸>4/_A9¸A933>3GIA933A9G®>2zíA9G®A9\)>1ÊA9\)A9p¤>1ÎA9p¤A9…>0iîA9…A9™š>/ºA9™šA9®>.¾³A9®A9Â>-z½A9ÂA9×
+>,7êA9×
+A9ë…>*öA9ë…A:  >)µ{A:  A:{>(ršA:{A:(ö>'-™A:(öA:=q>%éÐA:=qA:Qì>$©œA:QìA:ff>#jsA:ffA:zá>"]€A:záA:\>!‚hA:\A:£×> §ðA:£×A:¸R>Î.A:¸RA:ÌÍ>õA:ÌÍA:áH>,ËA:áHA:õÃ>uIA:õÃA;
+=>¾A;
+=A;¸>	A;¸A;33>TA;33A;G®>EíA;G®A;\)>ßA;\)A;p¤>y˜A;p¤A;…>MA;…A;™š>²TA;™šA;®>Z"A;®A;Â>¤A;ÂA;×
+>ÀUA;×
+A;ë…>u-A;ë…A<  >+eA<  A<{>D]A<{A<(ö>¿,A<(öA<=q>:BA<=qA<Qì>µºA<QìA<ff>1A<ffA<zá>
+uËA<záA<\>	‚îA<\A<£×>ÓA<£×A<¸R>Ÿ‹A<¸RA<ÌÍ>¯A<ÌÍA<áH>Â~A<áHA<õÃ>Ù¸A<õÃA=
+=>ñÈA=
+=A=¸>
+šA=¸A=33>$A=33A=G®>&#A=G®A=\)> ÃA=\)A=p¤=ýøÌA=p¤A=…=ûÑòA=…A=™š=ù­A=™šA=®=÷ÀQA=®A=Â=ö3A=ÂA=×
+=ôW‚A=×
+A=ë…=ò¥GA=ë…A>  =ðôA>  A>{=ïhëA>{A>(ö=î2A>(öA>=q=ì³A>=qA>Qì=ë<$A>QìA>ff=éÛ°A>ffA>zá=èMJA>záA>\=æ‘LA>\A>£×=äÖÒA>£×A>¸R=ãÓA>¸RA>ÌÍ=áfNA>ÌÍA>áH=ß°ZA>áHA>õÃ=ÝûßA>õÃA?
+==ÜHôA?
+=A?¸=Ú—€A?¸A?33=ØçƒA?33A?G®=×PA?G®A?\)=Õ5ôA?\)A?p¤=ÓQ]A?p¤A?…=ÑnA?…A?™š=Ï`A?™šA?®=ÍÐ*A?®A?Â=Ì6—A?ÂA?×
+=Êž|A?×
+A?ë…=É²A?ë…A@  =Ç[ìA@  A@{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
