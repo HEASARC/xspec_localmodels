@@ -1,0 +1,50 @@
+kyconv: black hole accretion disc emission
+
+This convolution model takes an input flux as a definition of the
+local flux across the accretion disc around a black hole. The broken power-law 
+radial dependence and the limb darkening/brightening law for the emission 
+directionality are used to define the local flux. The output
+is the total spectrum of an accretion disc. All relativistic effects are taken
+into account, see Dovciak M., Karas V. & Yaqoob T. (2004) ApJS, 153, 205-221.
+
+par1  = the black hole angular momentum (0 <= a/M <= 1)
+par2  = the observer inclination in degrees (0 deg - pole, 90 deg - disc)
+par3  = the inner edge of an accretion disc in GM/c^2
+par4  = 0 - means we always integrate from the disc inner edge, par3
+        1 - if the disc inner edge, par3, is below the marginally stable orbit
+            then we integrate emission from above the ISCO only
+par5  = the outer edge of an accretion disc in GM/c^2
+par6  = the inner power-law index for the radial dependence of the emissivity
+        that scales as r^(-par6) below the boundary radius, par8
+par7  = the outer power-law index for the radial dependence of the emissivity
+        that scales as r^(-par7) above the boundary radius, par8
+par8  = the boundary radius (in units of GM/c^2)
+par9  = the overall Doppler shift
+par10 = defines the emission directionality:
+        0 - isotropic emission (local flux ~ 1)
+        1 - Laor's limb darkening (local flux ~ 1+2.06*mu_e)
+        2 - Haardt's limb brightening (local flux  ~ ln[1+1/mu_e])
+par11 = the number of grid points in the local energy
+        (the energy resolution of the local flux)
+par12 = defines how to normalize the spectra (see the norm below)
+norm  = if par12 = 0 then norm means photons/cm^2/s in the line
+        if par12 > 0 then norm means photons/keV/cm^2/s at 1 keV
+        if par12 < 0 then the spectrum is not renormalized
+
+KYRH (the black hole horizon, r_h), KYRIN (the disc inner edge, r_in) and KYRMS 
+(the marginally stable orbit, r_ms, ISCO) are added to the XSPEC internal 
+switches. Use xset command to show their current values.
+
+Note: there are several restrictions that arise from the fact that existing 
+XSPEC models are used for definition of the local flux:
+- only the energy dependence of the photon flux can be defined by local XSPEC
+  models,
+- only a certain type of radial dependence of the local photon flux can be
+  imposed, a broken power-law radial dependence was chosen,
+- there is no intrinsic azimuthal dependence of the local photon flux, the
+  only azimuthal dependence comes through limb darkening/brightening law
+  (emission angle depends on azimuth),
+- the local flux can highly depend on the energy resolution, i.e. on the energy
+  binning used, if the energy resolution is not high enough. This is because the
+  flux is defined in the centre of each bin. A large number of bins is needed
+  for the highly varying local flux.

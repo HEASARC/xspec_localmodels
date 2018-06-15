@@ -1,0 +1,31 @@
+kyrline: black hole accretion disc line emission
+
+Line emission from an accretion disc around a black hole. The broken power-law 
+for the radial dependence and the limb darkening/brightening law for the 
+emission directionality are used to define the local flux in the spectral line. 
+All relativistic effects are taken into account, see 
+Dovciak M., Karas V. & Yaqoob T. (2004) ApJS, 153, 205-221.
+
+par1  = the black hole angular momentum (0 <= a/M <= 1)
+par2  = the observer inclination in degrees (0 deg - pole, 90 deg - disc)
+par3  = the inner edge of an accretion disc in GM/c^2
+par4  = 0 - means we always integrate from the disc inner edge, par3
+        1 - if the disc inner edge, par3, is below the marginally stable orbit
+            then we integrate emission from above the ISCO only
+par5  = the outer edge of an accretion disc in GM/c^2
+par6  = the rest energy of the intrinsically narrow spectral line (keV)
+par7  = the inner power-law index for the radial dependence of the emissivity
+        that scales as r^(-par7) below the boundary radius, par9
+par8  = the outer power-law index for the radial dependence of the emissivity
+        that scales as r^(-par8) above the boundary radius, par9
+par9  = the boundary radius (in units of GM/c^2)
+par10 = the overall Doppler shift
+par11 = defines the emission directionality:
+        0 - isotropic emission (local flux ~ 1)
+        1 - Laor's limb darkening (local flux ~ 1+2.06*mu_e)
+        2 - Haardt's limb brightening (local flux ~ ln[1+1/mu_e])
+norm  = photons/cm^2/s in the spectral line
+
+KYRH (the black hole horizon, r_h), KYRIN (the disc inner edge, r_in) and KYRMS 
+(the marginally stable orbit, r_ms, ISCO) are added to the XSPEC internal 
+switches. Use xset command to show their current values.
