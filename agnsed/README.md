@@ -44,13 +44,13 @@ Parameters for agnsed.
 - par3     `logmdot`: mdot = Mdot/Mdot\_Edd where eta Mdot\_Edd c^2 = L\_Edd
 - par4     `astar`: dimensionless black hole spin
 - par5     `cosi`: cosine of the inclination angle i for the warm Comptonising component and the outer disc.
-- par6     `kTe\_hot`: electron temperature for the hot Comptonisation component in keV. If this parameter is negative then only the
+- par6     `kTe_hot`: electron temperature for the hot Comptonisation component in keV. If this parameter is negative then only the
   	   hot `Comptonisation component is used.
-- par7     `kTe\_warm`: electron temperature for the warm Comptonisation component in keV. If this parameter is negative then only the warm Comptonisation component is used.
-- par8     `Gamma\_hot`: the spectral index of the hot Comptonisation component. If this parameter is negative, the code will use the value calculated via eq.(2) of KD18.
-- par9     `Gamma\_warm`: the spectral index of the warm Comptonisation component. If this parameter is negative then only the outer disc component is used.
-- par10    `R\_hot`: outer radius of the hot Comptonisation component in Rg
-- par11    `R\_wwarm`: outer radius of the warm Comptonisation component in Rg
+- par7     `kTe_warm`: electron temperature for the warm Comptonisation component in keV. If this parameter is negative then only the warm Comptonisation component is used.
+- par8     `Gamma_hot`: the spectral index of the hot Comptonisation component. If this parameter is negative, the code will use the value calculated via eq.(2) of KD18.
+- par9     `Gamma_warm`: the spectral index of the warm Comptonisation component. If this parameter is negative then only the outer disc component is used.
+- par10    `R_hot`: outer radius of the hot Comptonisation component in Rg
+- par11    `R_wwarm`: outer radius of the warm Comptonisation component in Rg
 - par12    `logrout`: log of the outer radius of the disc in units of Rg. If this parameter is negative, the code will use the self gravity radius as calculated from Laor & Netzer 1989.
 - par13    `Htmax`: the upper limit of the scaleheight for the hot Comptonisation component in Rg. If this parameter is smaller than parameter 10, the hot Comptonisation region is a sphere of radius Htmax by keeping Ldiss\_hot determined by R\_hot via eq.(2) of KD18.
 - par14    `reprocess`: switching parameter for the reprocessing, 0 or 1. If this parameter is 0, reprocessing is not considered. If this parameter is 1, reprocessing is included.
