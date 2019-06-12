@@ -1,4 +1,8 @@
+# Propagating fluctuations in the mass accretion rate of a precessing flow as a power spectral model for black hole binaries: propfluc
+
 This model and description are due to <a href="https://www2.physics.ox.ac.uk/contacts/people/ingrama">Adam Ingram</a>.
+
+## Description
 
 <p>
 The power spectrum of black hole binaries (BHBs) in the rise to outburst
@@ -76,8 +80,7 @@ in appendix A in <a href="http://arxiv.org/abs/1108.0789">Ingram &
 Done (2011)</a>. A similar process can be used for converting a lag
 spectrum into a format which can be read in by XSPEC.
 
-<p>
-Parameters in propfluc:
+## Parameters in propfluc
 
 <p>
 <table>
@@ -106,3 +109,10 @@ Parameters in propfluc:
 </table>
 The final four parameters are all just settings, not free parameters.
 <p>
+
+
+## Installing the model
+
+This model requires heasoft 6.26 or newer, with Xspec patch 12.10.1i or newer.
+
+
