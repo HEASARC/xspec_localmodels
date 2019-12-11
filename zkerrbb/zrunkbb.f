@@ -124,6 +124,7 @@ C     observed photon energy between EAR(i) and EAR(i+1).
       external lenact, fgmodf
 
       save iread, lflagsav, rflagsav
+      save flux0, e, gi, ai, thetai
       data iread/0/
 
       ca = Mdd**0.25*Mbh**(-0.5)*fcol
