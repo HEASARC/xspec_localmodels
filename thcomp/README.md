@@ -1,13 +1,13 @@
-# ThCompc: Thermally comptonized continuum
+# ThComp: Thermally comptonized continuum
 
 ## Description
 
-ThCompc is a replacement for the nthcomp model (Zdziarski et al. 1996,
+ThComp is a replacement for the nthcomp model (Zdziarski et al. 1996,
 MNRAS, 283, 193). It agrees much better than nthcomp with actual Monte
 Carlo spectra from Comptonization, see Zdziarski et al. (2019,
 arXiv:1910.04535) for details. See Nied{\'z}wiecki et al. (2019,
 MNRAS, 485, 2942) for analogous comparison with nthcomp, showing
-substantial discrepancies. ThCompc describes spectra from
+substantial discrepancies. ThComp describes spectra from
 Comptonization by thermal electrons emitted by a spherical source with
 the sinusoidal-like spatial distribution of the seed photons (as in
 compST, Sunyaev & Titarchuk 1980, A&A, 86, 121). It is a convolution
@@ -27,7 +27,7 @@ the seed photons.
 
 Please reference Zdziarski et al. (2019, arXiv:1910.04535) if you use it. 
 
-## Parameters for thcompc:
+## Parameters for thcomp:
 
 Par  | Name           | Description
 ---  | ----           | -------------
