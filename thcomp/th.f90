@@ -5,8 +5,9 @@
 subroutine thcompf(ear,ne,param,IFL,photar,photer) 
   IMPLICIT NONE
   integer ifl,ne,i,j
+  double precision fsc
 
-  real ear(0:ne),param(3),photar(ne),photer(ne),kte,tau,gam_tau,z_red
+  real ear(0:ne),param(4),photar(ne),photer(ne),kte,tau,gam_tau,z_red
   double precision theta0,theta,alp,tauthin,tauthick,a,b,c,q,delta
   real thpar(3),tmparrt(ne)
   real psum,tsum
@@ -16,7 +17,8 @@ subroutine thcompf(ear,ne,param,IFL,photar,photer)
 
   gam_tau=param(1)
   kte=param(2)
-  z_red=param(3)
+  fsc=param(3)
+  z_red=param(4)
 
   if(gam_tau.gt.0.0)then
      IF (gam_tau.eq.1.0) THEN
@@ -44,7 +46,7 @@ subroutine thcompf(ear,ne,param,IFL,photar,photer)
 
   thpar(1) = tau
   thpar(2) = kte
-  thpar(3) = z_red
+  thpar(4) = z_red
 
   !     Initialize arrays
   !     NTHCOMP CALL
@@ -65,7 +67,8 @@ subroutine thcompf(ear,ne,param,IFL,photar,photer)
   !     PHOTAR UNITS ARE:
   !     (Photons/cm^2/s per BIN) (i.e, flx integrated over the bin width)
 
-  photar = tmparrt/tsum*psum ! normalize the output
+  !  photar = tmparrt/tsum*psum ! normalize the output
+  photar = real(tmparrt/tsum*psum*fsc+(1.0-fsc)*photar) ! normalize the output
 
   RETURN
 END subroutine thcompf
@@ -93,7 +96,7 @@ SUBROUTINE msrunthcomp(Ear,Ne,Param,Ifl,Spec)
   Ifl=0
   seedspec = spec
 
-  z_red = param(3)
+  z_red = param(4)
 !  z_red = 0. ! previously param(4) in non-convolving thcomp
 
   np = 3
