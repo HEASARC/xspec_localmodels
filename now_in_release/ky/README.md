@@ -1,3 +1,5 @@
+NOTE: These models are now in the Heasoft release, as of Xspec version 12.11.
+
 A set of models from <a
 href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004ApJS..153..205D&amp;db_key=AST&amp;data_type=HTML&amp;format=&amp;high=4230b2429422869">Dovciak
 et al. (2004)</a> for accretion disk spectra in the strong gravity
