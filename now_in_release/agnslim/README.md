@@ -1,5 +1,7 @@
 # agnslim, AGN super-Eddington accretion model
 
+NOTE: This model is now in the Heasoft release, as of Xspec version 12.11.
+
 ## Description
 
 A broadband spectral model for a super-Eddington black hole accretion
