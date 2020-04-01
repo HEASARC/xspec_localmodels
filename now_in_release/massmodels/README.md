@@ -1,5 +1,6 @@
 # Cluster Mass Mixing Models
 
+NOTE: These models are now in the Heasoft release, as of Xspec version 12.11.
 
 These models are for determining distributions of gravitating mass in
 spherical, hydrostatic atmospheres.  A hot atmosphere is approximated
