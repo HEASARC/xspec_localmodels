@@ -1,4 +1,6 @@
 
+NOTE: This model is now in the Heasoft release, as of Xspec version 12.11.
+
 A model for the spectral energy distribution (SED) of an AGN developed
 by Kubota & Done 2018 (KD18;
 https://ui.adsabs.harvard.edu//#abs/2018MNRAS.480.1247K/abstract).
