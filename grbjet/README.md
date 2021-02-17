@@ -51,6 +51,3 @@ This can be checked after running XSPEC, when you should see the message
 Now the model is ready to be used.
 
 
-
-initpackage grbjet grbjet.dat /Users/klrutkow/Documents/Xspec/localmodels/grbjet
-lmod grbjet /Users/klrutkow/Documents/Xspec/localmodels/grbjet
