@@ -26,4 +26,9 @@
     <td>logxi</td>
     <td>ionising parameter log (xi)</td>
   </tr>
+  <tr>
+    <td>5</td>
+    <td>redshift</td>
+    <td></td>
+  </tr>
 </table>
