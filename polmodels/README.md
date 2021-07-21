@@ -18,8 +18,8 @@ The parameters are:
 
 ### powpol: a power-law dependence on energy for both polarization fraction and energy
 
-    `A(E)   = Anorm * E^(-Aindex)`
-    `psi(E) = psinorm * E^(-psiindex)`
+    A(E)   = Anorm * E^(-Aindex)
+    psi(E) = psinorm * E^(-psiindex)
 
 The parameters are:
 <table>
