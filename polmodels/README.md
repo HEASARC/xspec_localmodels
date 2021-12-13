@@ -8,24 +8,40 @@ can be modified to perform more complicated operations.</p>
 
 ## Models
 
-### constpol: an energy-independent polarization fraction and angle
+
+### polconst: an energy-independent polarization fraction and angle
 
 The parameters are:
 <table>
-<tr><td>1</td><td>A</td><td>polarization fraction</td></tr>
-<tr><td>2</td><td>psi</td><td>polarization angle (degrees)</td></tr>
+<tr> <td>1</td> <td>A</td>    <td>polarization fraction</td>        </tr>
+<tr> <td>2</td> <td>psi</td>  <td>polarization angle (degrees)</td> </tr>
 </table>
 
-### powpol: a power-law dependence on energy for both polarization fraction and energy
+
+### pollin: a linear dependence on energy for both polarization fraction and energy
+
+    A(E)   = A1 + (E-1)*Aslope
+    psi(E) = psi1 + (E-1)*psislope
+    
+The parameters are:
+<table>
+<tr> <td>1</td> <td>A1</td>         <td>polarization fraction at 1 keV</td>         </tr>
+<tr> <td>2</td> <td>Aslope</td>     <td>polarization fraction slope</td>            </tr>
+<tr> <td>3</td> <td>psi1</td>       <td>polarization angle at 1 keV (degrees)</td>  </tr>
+<tr> <td>4</td> <td>psislope</td>   <td>polarization angle slope</td>               </tr>
+</table>
+
+
+### polpow: a power-law dependence on energy for both polarization fraction and energy
 
     A(E)   = Anorm * E^(-Aindex)
     psi(E) = psinorm * E^(-psiindex)
 
 The parameters are:
 <table>
-<tr><td>1</td><td>Anorm</td><td>polarization fraction at 1 keV</td></tr>
-<tr><td>2</td><td>Aindex</td><td>polarization fraction index</td></tr>
-<tr><td>3</td><td>psinorm</td><td>polarization angle at 1 keV (degrees)</td></tr>
-<tr><td>4</td><td>psiindex</td><td>polarization angle index</td></tr>
+<tr> <td>1</td> <td>Anorm</td>    <td>polarization fraction at 1 keV</td>         </tr>
+<tr> <td>2</td> <td>Aindex</td>   <td>polarization fraction index</td>            </tr>
+<tr> <td>3</td> <td>psinorm</td>  <td>polarization angle at 1 keV (degrees)</td>  </tr>
+<tr> <td>4</td> <td>psiindex</td> <td>polarization angle index</td>               </tr>
 </table>
 
