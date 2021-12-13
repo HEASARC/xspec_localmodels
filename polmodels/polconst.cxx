@@ -13,7 +13,7 @@ void calcpol(const RealArray& energyArray, int spectrumNumber, const RealArray& 
 
 
 extern "C"
-void constpol(const RealArray& energyArray, const RealArray& params,
+void polconst(const RealArray& energyArray, const RealArray& params,
 	      int spectrumNumber, RealArray& fluxArray, RealArray& fluxErrArray,
 	      const string& initString)
 {
