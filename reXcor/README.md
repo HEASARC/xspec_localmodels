@@ -5,7 +5,8 @@
 <p>
 reXcor is a new AGN X-ray (0.3–100 keV) spectral fitting model that self-consistently combines the effects of both ionized relativistic reflection and the emission from a warm corona. In this model, the accretion energy liberated in the inner disk is distributed between a warm corona, a lamppost X-ray source, and the accretion disk. The emission and ionized reflection spectrum from the inner 400 rg of the disk is computed, incorporating the effects of relativistic light-bending and blurring. The resulting spectra predict a variety of soft excess shapes and sizes that depend on the fraction of energy dissipated in the warm corona and lamppost. 
 <p>
-Full details of the reXcor models can be found in this paper: Xiang, X, Ballantyne, D.R., et al., 2022, MNRAS, in press (arXiv number to come).
+Full details of the reXcor models can be found in this paper: 
+  Xiang, X, Ballantyne, D.R., et al., 2022, MNRAS, in press (https://arxiv.org/abs/2206.06825)
   
 ## Parameters
   
