@@ -2,16 +2,13 @@
 
 ## Description
 
-<p>
 The SSsed model was developed by Kubota et al. (<a href="https://academic.oup.com/mnras/article/528/2/1668/7513775">2024 MNRAS 528, 1668</a>) to describe spectral energy distribution (SED) of black hole binaries (BHBs). This model is a revised version of the agnsed model (Kubota &amp; Done 2018, MNRAS, 489, 524), but it was tuned to BHBs, and especially to their intermediate spectra where there are clearly two Compton components as well as (truncated) disc. The key concept is that the flow is radially stratified such that the accretion power is emitted as (colour-corrected) black body radiation at $r > r_{cor}$, while it is emitted as inverse-Comptonization by both the thermal and non-thermal corona at $r < r_{cor}$ The seed photons are assumed to be emitted from the underlying passive disc at $r < r_{cor}$. All the emission is constrained by the standard disc emissivity by Shakura &amp; Sunyaev (1973), with $\dot M$ constant with radius. If the components of the outer disc are visible, both parameters $r_{cor}$ and $r_{in}$ are determined independently. In cases where the outer disc is not visible, such as in the bright hard state, caution is needed in interpreting the obtained value of $r_{cor}$.
-</p>
 
 
 ## Parameters in SSsed
 
-<p>
 Spectral parameters of the SSsed model are summarised in Table 1. The model has some switching parameters:
-</p>
+
 * If parameter 6 is negative, the model gives the inner hot Comptonisation component.
 * If parameter 7 is negative, the model gives the Comptonisation component in the passive-disc corona region.
 * If parameter 9 is negative, the model gives the outer disc.
@@ -62,8 +59,7 @@ Follow the guidance in <a href="https://heasarc.gsfc.nasa.gov/docs/xanadu/xspec/
 
 For example: 
 
-<code>
-$ xspec
+<code>$ xspec
 XSPEC12>initpackage sssed /path/to/xspec_localmodels/SSsed/lmodel_sssed.dat /path/to/localmodels/xspec_localmodels/SSsed/
 XSPEC12>lmod sssed /path/to/xspec_localmodels/SSsed/
 </code>
