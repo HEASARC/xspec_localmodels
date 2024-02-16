@@ -21,7 +21,7 @@ The reXcor parameters are:
 
 <table>  
   <tr><td>1.</td><td>fx —  the fraction of the accretion flux dissipated in the lamppost (the hot, power-law emitting corona). Range of values: 0.02 to 0.2 (in steps of 0.02).</td></tr>
-  <tr><td>2.</td><td>Gamma — the photon-index of the power-law continuum. Range of values: 1.7 to 2.2 (in steps of 0.1)</td></tr>
+  <tr><td>2.</td><td>Gamma — the photon-index of the power-law continuum. Range of values: 1.5 to 2.2 (in steps of 0.05).</td></tr>
   <tr><td>3.</td><td>hf — the fraction of the accretion flux dissipated in the warm corona. Range of values: 0.0 to 0.8 (in steps of 0.05)</td></tr>
   <tr><td>4.</td><td>tau — Thomson depth of the warm corona. Range of values: 10 to 30 (in steps of 2)</td></tr>
   <tr><td>5.</td><td>z — Redshift.</td></tr>
