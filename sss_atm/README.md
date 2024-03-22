@@ -2,7 +2,7 @@
 
 ## Description
 
-The sss_atm model represents soft X-ray emission (0.07-1.4 keV) of the atmospheres of hot white dwarf, which are main emission component of the super-soft X-ray sources. Super-soft sources are close binary systems with accreting white dwarfs. Accretion rates are so high that (quasi-)steady state thermonuclear burning on the white dwarf surfaces curried out. As a result the surfaces of such white dwarfs could be very hot, with effective temperatures up to 800-1000 kK. In the first approximation, their emission can be approximated with hot white dwarf atmosphere spectra.
+The sss_atm model represents soft X-ray emission (0.07-1.4 keV) of the atmospheres of hot white dwarf, which are main emission component of the super-soft X-ray sources. Super-soft sources are close binary systems with accreting white dwarfs. Accretion rates are so high that (quasi-)steady state thermonuclear burning on the white dwarf surfaces occurred. As a result the surfaces of such white dwarfs could be very hot, with effective temperatures up to 800-1000 kK. In the first approximation, their emission can be approximated with hot white dwarf atmosphere spectra.
 
 Presented here are spectra of hot white dwarf model atmospheres which were computed assuming plane-parallel and LTE approximations. 
 * The atmospheres were considered in hydrostatic equilibrium. Formally, the radiation pressure force exceeded the gravity in the outer layers of the model atmospheres.  We postulated that in those layers the gas pressure equals to 10% of the total pressure. 
