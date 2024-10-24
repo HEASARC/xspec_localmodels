@@ -1,0 +1,10 @@
+lorabs        3   0.01    1.e6      C_lorentzAbsorptionLine     mul  0
+El       keV    1.0    0.    0.    1E4  1E5    1E-3
+sigma    keV    1.0    0.    0.    1E4  1E5    1E-3
+d        keV    1.0    0. 0  0.    1E4  1E5    1E-3
+
+voigtabs      4   0.01    1.e6      C_voigtAbsorptionLine     mul  0
+El       keV    1.0    0.    0.    1E4  1E5    1E-3
+sigma    keV    1.0    0.    0.    1E4  1E5    1E-3
+gamma    keV    1.0    0. 0  0.    1E4  1E5    1E-3
+d        keV    1.0    0. 0  0.    1E4  1E5    1E-3
